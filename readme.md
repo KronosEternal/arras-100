@@ -2,7 +2,7 @@
 
 The offical client for the arras.io siege remake
 
-![Arras.io logo](https://docs.google.com/drawings/d/e/2PACX-1vS4qEbF0unPt2tPTnoKhSpIqOD5ab88Y-15IzCRs4DuQJaJeC1p3FqpBV0c9IQfI4OJ1DcAh7b4k7aV/pub?w=960&h=720)
+![Arras.io logo](https://cdn.glitch.global/98153732-992a-4d57-b71f-86128add9d7f/download.png?v=1645171185622)
 
 # Features
 
