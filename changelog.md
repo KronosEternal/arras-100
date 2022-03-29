@@ -1,3 +1,16 @@
+# Well look whos updating it lel
+- sneak peek at april fools update is out now!
+- changed token detection system to reduce load times
+- modified client slightly
+# Updates Siege
+- Fixed God mode bug
+- Better chat connect to token, now, only if you have the token can you execute certain commands
+- if you type /help, it will only show commands you have permission to execute
+- nerfed legionary crashers size by 17%
+- buffed ragnarok auto smasher range
+- /questionable is now accessable by all players
+- Changed Token, but don't worry, a new public beta tester one will come soon!
+- new /test command! (dev only)
 # Will I update this... Probably not
 - however, there will be an update for april fools lasting until april 7th
 - Yes, it will be unfair, what did you think?
