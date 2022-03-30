@@ -821,7 +821,7 @@
         g.strokeStyle = u;
         g.stroke();
       }
-      var somethinglolcuzimlazy = "THEBEES"
+      var somethinglolcuzimlazy = ""
                   function Qa(b, a, c, h, u) {
                 if (!(.05 > u)) {
                     var d = c.render.status.getFade();
@@ -841,11 +841,11 @@
                             g.globalAlpha = d
                         }
                     } //name color
-                    if (somethinglolcuzimlazy == "") {
+                    if (somethinglolcuzimlazy == "?questionable") {
                     c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, !1 &&
-                        (d = d.slice(2), d.length && (f = T(l.yellow, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1) } else {
+                        (d = d.slice(2), d.length && (f = T(l.blue, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1) } else {
                       c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, z.key == somethinglolcuzimlazy &&
-                        (d = d.slice(2), d.length && (f = T(l.yellow, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                        (d = d.slice(2), d.length && (f = T(l.blue, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
                       
                     }
                 }
