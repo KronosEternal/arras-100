@@ -5,11 +5,11 @@
 - fixed legionary ai bug
 - stricter Ai targeting parameters for smoother movements (bosses only)
 - players can no longer spawn once the arena has been closed, or when all sanctuaries are destroyed
-# Well looks who's updating the changelog lel
+# Siege Updates (wow im updating the changelog)
 - sneak peek at april fools update is out now!
 - changed token detection system to reduce load times
 - modified client slightly
-# Updates Siege
+# Siege Update
 - Fixed God mode bug
 - Better chat connect to token, now, only if you have the token can you execute certain commands
 - if you type /help, it will only show commands you have permission to execute
