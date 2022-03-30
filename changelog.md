@@ -251,7 +251,7 @@ function PlaySound() {
       colno: colno,
       error: error
     })
-    prompt('The code has encountered a JS parsing error, please refresh to recover. Error information:', e)
+    prompt('The Game has crashed, due to an unknown server error, please check code Error information:', e)
   }
   </script>
   <script src="./bundle.js"></script>
