@@ -1,8 +1,8 @@
-# bug fixes 
+# Bug Fixes
 - fixed legionary ai bug
 - stricter Ai targeting parameters for smoother movements (bosses only)
 - players can no longer spawn once the arena has been closed, or when all sanctuaries are destroyed
-# Well looks whos updating the changelog lel
+# Well looks who's updating the changelog lel
 - sneak peek at april fools update is out now!
 - changed token detection system to reduce load times
 - modified client slightly
