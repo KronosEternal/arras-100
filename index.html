@@ -42,16 +42,6 @@ function PlaySound1() {
   hover.load();   
     hover.play();
 }
-</script>
-    <script>
-var animevoice = new Audio();
-animevoice.src = ("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/arras-mayhem.wav");
-function PlaySound5() {
-  animevoice.load();   
-   animevoice.play();
-}
-</script>
-      <script>
 var music2 = new Audio();
  const pmusic = ["https://cdn.glitch.global/fca666a2-8235-47b6-a711-c9926dc2248f/bgm002.ogg?v=1641828188671", "https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm05.ogg?v=1640768277837", "https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2Fbgm_39.ogg?v=1612744179994", "https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm11.ogg?v=1640767898906","https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm02.ogg?v=1640767732812"];
 var rand = pmusic[~~(Math.random() * pmusic.length)];
@@ -104,7 +94,7 @@ function PlaySound() {
           <div class="sliderHolder">
             <div class="slider startMenuSlidingContent">
               <center><img src="bordeaux.surge.sh/Bordeaux.png" onmouseover="PlaySound1()" onclick="PlaySound()" title="arras.io" class="icon" alt="arras icon"></center>
-               <h1 onclick="PlaySound5()">arras.io</h1>
+               <h1>arras.io</h1>
                <noscript>
                 <h4>Please enable JavaScript to play!</h4>
                  </noscript>
@@ -261,7 +251,7 @@ function PlaySound() {
       colno: colno,
       error: error
     })
-    prompt('The code has encountered a JS parsing error, please refresh to recover. Error information:', e)
+    prompt('The Game has crashed, due to an unknown server error, please check code Error information:', e)
   }
   </script>
   <script src="./bundle.js"></script>
