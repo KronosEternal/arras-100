@@ -160,7 +160,7 @@ function PlaySound() {
               </table>
               <div class="optionsHeader">Bypass Token</div>
               <input type="text" tabindex="1"  title="Use the bypass Token" placeholder="Bypass" id="playerTokenInput" maxlength="48">
-              <div class="optionsHeader">Themes & Graphics</div>
+              <div class="optionsHeader shadowScroll">Themes & Graphics
               <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
                 <option value="normal">Light Colors</option>
                 <option value="dark">Dark Colors</option>
@@ -236,6 +236,7 @@ function PlaySound() {
         </div>
       </div>
     </div>
+  </div>
   </div>
   <!-- JS -->
   <script>
