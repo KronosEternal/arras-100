@@ -1,5 +1,5 @@
 # Git Commits!
-- if you find a bug, please report it at https://github.com/KronosEternal/arras-mayhem/issues
+- if you find a bug, please report it by clicking the "Bug Report" button above!
 # Client Deploy Changes
 - added github actions
 - auto-deploy means that changelog will be updated much more frequently (yay)
