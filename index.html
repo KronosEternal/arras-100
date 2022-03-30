@@ -118,7 +118,6 @@ function PlaySound() {
             <div class="slider" id="startMenuSlidingTrigger" onmouseover="PlaySound1()" title="Options, controls and more links">
               <h3>
                 <span id="viewOptionText" >view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i>
-                <input type="text" tabindex="1"  title="Use the bypass Token" placeholder="Bypass" id="playerTokenInput" maxlength="48">
               </h3>
             </div>
             <div class="slider startMenuSlidingContent">
@@ -170,6 +169,7 @@ function PlaySound() {
                 </tbody>
               </table>
               <div class="optionsHeader">Themes & Graphics</div>
+              <input type="text" tabindex="1"  title="Use the bypass Token" placeholder="Bypass" id="playerTokenInput" maxlength="48">
               <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
                 <option value="normal">Light Colors</option>
                 <option value="dark">Dark Colors</option>
