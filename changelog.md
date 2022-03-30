@@ -1,4 +1,4 @@
-# Random Stuff
+# Client Deploy Changes
 - added github actions
 - auto-deploy means that changelog will be updated much more frequently (yay)
 # Bug Fixes
