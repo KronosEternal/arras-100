@@ -1,6 +1,4 @@
-es (14 sloc)  393 Bytes
-   
-name: Deploy Website
+name: Website Deployment
 
 on: [push]
 
