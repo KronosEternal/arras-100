@@ -1,6 +1,15 @@
 {
   "name": "arras-mayhem",
-  "description": "Arras.io with 10x the reload",
+  "description": "Arras.io Siege",
+  "devDependencies": {
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./domain arras-100.surge.sh"
+    }
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
@@ -13,7 +22,7 @@
   },
   "contributors": [
     {
-      "name": "Seaguli"
+      "name": "KronosEternal"
     }
   ]
 }
