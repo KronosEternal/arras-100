@@ -21,8 +21,16 @@
     "start": "node index"
   },
   "contributors": [
-    {
-      "name": "KronosEternal"
-    }
-  ]
+    "KronosEternal"
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KronosEternal/arras-mayhem.git"
+  },
+  "author": "KronosEternal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KronosEternal/arras-mayhem/issues"
+  }
 }
