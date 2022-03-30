@@ -82,7 +82,7 @@ function PlaySound() {
     <canvas id="gameCanvas" tabindex="1"></canvas>
     <div id="respawn-banner" class="respawn-banner"><div id="arras-io_728x90"></div></div>
   </div>
-  <div id="mainWrapper">
+  <div id="mainWrapper shadowScroll">
     <div id="startMenuWrapper">
       <div class="menuTabs">
         <a class="menuTab discord" onclick="PlaySound()" onmouseover="PlaySound1()" title="Join our Discord server" href="https://discord.gg/yTZdDPA" target="_blank" rel="noopener noreferrer">Discord</a>
@@ -160,7 +160,7 @@ function PlaySound() {
               </table>
               <div class="optionsHeader">Bypass Token</div>
               <input type="text" tabindex="1"  title="Use the bypass Token" placeholder="Bypass" id="playerTokenInput" maxlength="48">
-              <div class="optionsHeader shadowScroll">Themes & Graphics
+              <div class="optionsHeader shadowScroll">Themes & Graphics </div>
               <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
                 <option value="normal">Light Colors</option>
                 <option value="dark">Dark Colors</option>
@@ -236,7 +236,6 @@ function PlaySound() {
         </div>
       </div>
     </div>
-  </div>
   </div>
   <!-- JS -->
   <script>
