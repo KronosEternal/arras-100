@@ -2,6 +2,7 @@
 - /closegame permanantly closes the server
 - spawn request doesn't refresh upon sanc refresh
 - reset must be made manually, the function is in progress
+- beta tester doesn't have upgrade paths, or access to commands
 # Client Deploy Changes
 - added github actions
 - auto-deploy means that changelog will be updated much more frequently (yay)
