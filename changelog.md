@@ -1,3 +1,6 @@
+# Random Stuff
+- added github actions
+- auto-deploy means that changelog will be updated much more frequently (yay)
 # Bug Fixes
 - fixed legionary ai bug
 - stricter Ai targeting parameters for smoother movements (bosses only)
