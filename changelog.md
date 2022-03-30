@@ -1,3 +1,7 @@
+# Client Updates
+- added a "bypass token"
+- borrowed random logo as an icon
+- changed keybind functions
 # Siege Updates
 - token has changed (again again)
 - finally protected the token from CTRL + U
