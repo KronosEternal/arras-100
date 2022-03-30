@@ -18,6 +18,6 @@
 - /questionable is now accessable by all players
 - Changed Token, but don't worry, a new public beta tester one will come soon!
 - new /test command! (dev only)
-# Will I update this... Probably not (Irony)
+# Will I update this... Probably not (yes he will)
 - however, there will be an update for april fools lasting until april 7th
 - Yes, it will be unfair, what did you think?
