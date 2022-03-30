@@ -1,3 +1,8 @@
+# Siege Updates
+- token has changed (again again)
+- finally protected the token from CTRL + U
+- Github secrets!
+- Public Repo!
 # Git Commits!
 - if you find a bug, please report it by clicking the "Bug Report" button above!
 # Client Deploy Changes
