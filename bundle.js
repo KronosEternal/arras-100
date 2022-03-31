@@ -1338,13 +1338,15 @@
               y = y.join("=") || !0;
               h[a] = y;
               h.key = document.getElementById("playerKeyInput");
+              h.key = document.getElementById("playerTokenInput");
             }
             h.private &&
               ((u = h.private),
               u.includes(";") &&
                 ((a = u.split(";")),
                 (u = a.shift()),
-                (h.key = document.getElementById("playerKeyInput"))),
+                (h.key = document.getElementById("playerKeyInput")),
+                 h.tokenx = document.getElementById("playerTokenInput"))
               (h.host = u));
             return null;
           }
