@@ -4720,45 +4720,12 @@
         servers: [
           {
             visible: 0,
-            id: "Heroku-Beta",
-            type: "beta",
+            id: "Heroku-Siege",
+            type: "siege",
             code: "heroku-frankfurt-4",
-            at: p.heroku("arrasdotio"),
-            prefer: !0,
+            at: p.heroku("arrasiege"),
+            prefer: !1,
             featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Heroku-FFA",
-            type: "ffa",
-            code: "heroku-frankfurt-f",
-            at: p.heroku("arras-moe"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Glitch-Developer",
-            type: "dev",
-            code: "glitch-virginia-f",
-            at: p.glitch("arrasio5")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 1,
-            id: "Glitch-Domination",
-            type: "dominaton",
-            code: "glitch-virginia-d",
-            at: p.glitch("jagged-petal-parenthesis")
-            // featured: 1, // For Featured Status.
-          },
-          {
-                   visible: 1,
-            id: "Glitch-Staging",
-            type: "ffa",
-            code: "glitch-virginia-a",
-            at: p.glitch("debonair-pushy-beam")
-            // featured: 1, // For Featured Status.
           },
           {
             visible: 0,
@@ -4767,15 +4734,6 @@
             code: "heroku-virginia-x",
             at: p.heroku("arras-mayhem"),
              featured: 1, // For Featured Status.
-          },
-          {
-
-            visible: 0,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
-            // featured: 1, // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))
