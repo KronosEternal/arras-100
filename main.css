@@ -123,7 +123,7 @@ h3 {
   text-shadow: /*#ffe500 0 0 4px,*/ #fff27e 0 0 6px;
 }
 .serverSelector tr.selected {
-  color: #8ABC3F;
+  color: #25c29b;
   cursor: default;
 }
 
@@ -170,7 +170,9 @@ input {
 #playerKeyInput {
   padding: 5px;
 }
-
+#playerTokenInput {
+  padding: 5px;
+}
 input:focus {
   border: solid 1px #CCCCCC;
 }
