@@ -1,15 +1,10 @@
+# What am I doing?
+- mainly client updates and functions
+- unfortunatly, due to js errors and such, the
+update for april fools may not be there until sunday
+- client color overhaul!
+- improved colors!
 # Client Updates
-- added a "bypass token"
-- borrowed random logo as an icon
-- changed keybind functions
-# Siege Updates
-- token has changed (again again)
-- finally protected the token from CTRL + U
-- Github secrets!
-- Public Repo!
-# Git Commits!
-- if you find a bug, please report it by clicking the "Bug Report" button above!
-# Client Deploy Changes
 - added github actions
 - auto-deploy means that changelog will be updated much more frequently (yay)
 # Bug Fixes
@@ -29,6 +24,6 @@
 - /questionable is now accessable by all players
 - Changed Token, but don't worry, a new public beta tester one will come soon!
 - new /test command! (dev only)
-# Will I update this... Probably not (yes he will)
+# Will I update this... Probably not (Irony)
 - however, there will be an update for april fools lasting until april 7th
 - Yes, it will be unfair, what did you think?
