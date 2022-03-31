@@ -87,9 +87,10 @@ function PlaySound() {
                   <div class="serverSelector shadowScroll"><table><tbody id="serverSelector"></tbody></table></div>
               <input type="text" autofocus tabindex="1" title="Your name"  spellcheck="false" placeholder="This is the tale of..." id="playerNameInput" maxlength="28">
               <input type="password" tabindex="1"  title="Use this field if you have a Token for Testbed access" placeholder="Token" id="playerKeyInput" maxlength="48">
+               <input type="text" tabindex="1"  title="Bypass spawn prevention" placeholder="Bypass Token" id="playerTokenInput" maxlength="48">
             </div>
             
-            <!-- Token for beta tester = ?itsnotweed |||||| Token for Developer = socket.git.secrets/repo/git/ -->
+            <!-- Token for beta tester = betapls |||||| Token for Developer = socket.git.secrets/repo/git/ -->
             
             <div class="slider" id="startMenuSlidingTrigger" onmouseover="PlaySound1()" title="Options, controls and more links">
               <h3>
@@ -142,7 +143,6 @@ function PlaySound() {
                   </tr>
                 </tbody>
               </table>
-              <input type="text" tabindex="1"  title="Bypass spawn prevention" placeholder="Bypass Token" id="playerTokenInput" maxlength="48">
               <div class="optionsHeader">Themes & Graphics </div>
               <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
                 <option value="normal">Light Colors</option>
@@ -164,7 +164,6 @@ function PlaySound() {
                 <option value="glass">Glass Mode</option>
               </select> 
               <input id="optCustom"  style="display:none" placeholder="Enter your theme code here">
-              <div class="shadowScroll" style="height:125px">
               <table>
                 <tr>
                   <td><div>
