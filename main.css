@@ -84,7 +84,7 @@ h3 {
   width: 100%;
   height: 20px;
   box-sizing: border-box;
-  background: #b1d5fc;
+  background: #2686ed;
     border-bottom: 2px solid #70b5ff;
   box-shadow: inset 0 -2px #70b5ff;
   border: 0;
@@ -573,24 +573,24 @@ body.mobile .icon {
     animation:pfpDefault 800ms linear both;
   text-align: center;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  background: #A9D86D;
+  background: #2be378;
   border: 0;
-  border-bottom: 2px solid #8ABC3F;
+  border-bottom: 2px solid #22bd63;
   cursor: pointer;
-  box-shadow: inset 0 -2px #8ABC3F;
+  box-shadow: inset 0 -2px #22bd63;
   border-radius: 5px;
   font: 16px Ubuntu;
 }
 #startButton:hover {
   margin-top: 1px;
   height: 39px;
-  border-bottom: 1px solid #8ABC3F;
+  border-bottom: 1px solid #22bd63;
 }
 
 #startButton:active {
   margin-top: 2px;
   height: 38px;
-  background: #8ABC3F;
+  background: #22bd63;
   border-bottom: 0px
   outline: none;
   box-shadow: none;
