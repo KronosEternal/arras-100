@@ -1,3 +1,6 @@
+# More Updates
+- now i FIXED the actual commands and stuff linked to token
+- linked token to an .env variable
 # What am I doing?
 - mainly client updates and functions
 - unfortunatly, due to js errors and such, the
