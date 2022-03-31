@@ -115,7 +115,7 @@ h3 {
   scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.15);
 }
 .serverSelector tr {
-  color: #7c8387;
+  color: #d7ecf7;
   cursor: pointer;
 }
 .serverSelector tr.featured {
