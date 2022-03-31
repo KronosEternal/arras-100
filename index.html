@@ -1,255 +1,379 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html> 
 <html lang="en">
-<head>
-  <!-- Meta Properties -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
-    <meta name="description" content="arras.io, but the tanks drank milk.">
-  <meta name="robots" content="index, follow">
-   <meta name="author" content="KronosEternal">
-    <meta name="keywords" content="arras.io, arras, game, arras mayhem, arras moe, arrasio">
-    <meta property="og:image" content="bordeaux.surge.sh/Bordeaux.png">
-  <meta property="og:site_name" content="arras-mayhem">
-  <meta property="og:image:width" content="80">
-  <meta property="og:image:height" content="80">
-  <meta property="og:type" content="website">
-  <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#b493d3">
-  <title>arras.io</title>
-    <!-- Apple Web App stuff -->
-  <link rel="apple-touch-icon" href="bordeaux.surge.sh/Bordeaux.png" />
-  <link rel="apple-touch-startup-image" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="apple-touch-startup-image" media="(device-width: 768px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
-   <link rel="apple-touch-startup-image" media="(device-width: 1536px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
- <link href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <!-- Windows App Pin -->
-   <meta name="msapplication-TileColor" content="#b493d3">
-    <meta name="msapplication-TileImage" content="bordeaux.surge.sh/Bordeaux.png">
-  <!-- CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="/main.css">
-  <link rel="icon" type="image/png" sizes="256x256" href="bordeaux.surge.sh/Bordeaux.png">
-   <link rel="manifest" href="/favicon/manifest.json">
-</head>
-<body oncontextmenu="return event.target.tagName === 'A'">
-    <!-- Music and Audio -->
-  <script>
-var hover = new Audio();
-hover.src = ("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/syt.ogg");
-function PlaySound1() {
-  hover.load();   
-    hover.play();
-}
-var music2 = new Audio();
- const pmusic = ["https://cdn.glitch.global/fca666a2-8235-47b6-a711-c9926dc2248f/bgm002.ogg?v=1641828188671", "https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm05.ogg?v=1640768277837", "https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2Fbgm_39.ogg?v=1612744179994", "https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm11.ogg?v=1640767898906","https://cdn.glitch.me/fca666a2-8235-47b6-a711-c9926dc2248f/bgm02.ogg?v=1640767732812"];
-var rand = pmusic[~~(Math.random() * pmusic.length)];
-music2.src = (rand);
-function PlayMusic() {
-  music2.load();   
-    music2.play();
-}
-</script>
-    <script>   
-   function switchAudio() {
-      if (document.getElementById("optSound").checked === true) {
-           music2.play()
-    music2.addEventListener('ended', function() {this.currentTime = 0; this.play();}, false);
-     } else if (document.getElementById("optSound").checked === false) {
-          music2.pause()
-            }
-         return; } 
-  </script>
-       <script>
-var gears = new Audio();
-gears.src = ("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/gear.wav");
-function PlaySound3() {
-    gears.play();
-}
-</script> 
-    <script>
-var click = new Audio();
-click.src = ("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg");
-function PlaySound() {
-  click.load();   
-    click.play();
-}
-</script>
-      <audio id ="bflat" src="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg"></audio>
-    <!-- Main Code-->
-   <div id="gameAreaWrapper">
-    <canvas id="gameCanvas" tabindex="1"></canvas>
-    <div id="respawn-banner" class="respawn-banner"><div id="arras-io_728x90"></div></div>
-  </div>
-  <div id="mainWrapper">
-    <div id="startMenuWrapper">
-      <div class="menuTabs">
-        <a class="menuTab discord" onclick="PlaySound()" onmouseover="PlaySound1()" title="Join our Discord server" href="https://discord.gg/yTZdDPA" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a class="menuTab catto" onclick="PlaySound()" onmouseover="PlaySound1()" title="View the client's source code" href="https://glitch.com/edit/#!/arras-100" target="_blank" rel="noopener noreferrer">View Source</a>
-        <a class="menuTab stat" onclick="PlaySound()" onmouseover="PlaySound1()" title="Bug Reports" href="https://github.com/KronosEternal/arras-mayhem/issues" target="_blank" rel="noopener noreferrer">Bug Report</a>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <meta name="description" content="bordeaux.io is a sequel of the game arras.io with much more features!">
+      <meta name="robots" content="index, follow">
+      <meta property="og:image" content="https://bordeaux.surge.sh/Bordeaux.png">
+      <link rel="icon" type="image/png" sizes="256x256" href="https://bordeaux.surge.sh/Bordeaux.png">
+      <meta property="og:image:width" content="54">
+      <meta property="og:image:height" content="54">
+      <title>bordeaux.io</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+      <link rel="stylesheet" href="/css/main.css?1577642780518">
+      <link rel="manifest" href="/favicon/manifest.json">
+      <!--<link rel="canonical" href="https://arras.io/">--> 
+      <meta name="theme-color" content="#00ffff">
+   </head>
+   <body>
+      <div class="gameAreaWrapper">
+         <canvas id="gameCanvas" tabindex="1"></canvas>
+         <div id="respawn-banner" class="respawn-banner">
+            <div id="arras-io_728x90"></div>
+            <div id="ad-respawn-container"></div>
+         </div>
       </div>
-      <div id="startMenu">
-        <div class="startMenuHolder">
-          <div class="sliderHolder">
-            <div class="slider startMenuSlidingContent">
-              <center><img src="https://bordeaux.surge.sh/Bordeaux.png" class="icon" alt="arras icon"></center>
-               <h1>arras.io</h1>
-               <noscript>
-                <h4>Please enable JavaScript to play!</h4>
-                 </noscript>
-                  <div class="serverSelector shadowScroll"><table><tbody id="serverSelector"></tbody></table></div>
-              <input type="text" autofocus tabindex="1" title="Your name"  spellcheck="false" placeholder="This is the tale of..." id="playerNameInput" maxlength="28">
-              <input type="password" tabindex="1"  title="Use this field if you have a Token for Testbed access" placeholder="Token" id="playerKeyInput" maxlength="48">
+      <div class="mainWrapper">
+         <div id="startMenuWrapper">
+            <div id="menuTabs" class="menuTabs">
+               <!--<span class="menuTab discord"><a href="/logout">Log out</a></span> <span class="menuTab stat"><a href="/stats">View stats</a></span>--> <!--<span class="menuTab discord"><a href="/login">Log in via Discord</a></span>--> 
             </div>
-            
-            <!-- Token for beta tester = ?itsnotweed |||||| Token for Developer = socket.git.secrets/repo/git/ -->
-            
-            <div class="slider" id="startMenuSlidingTrigger" onmouseover="PlaySound1()" title="Options, controls and more links">
-              <h3>
-                <span id="viewOptionText" >view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i>
-              </h3>
+            <div class="startMenu">
+               <div class="startMenuHolder mainHolder">
+                  <div class="sliderHolder">
+                     <div class="slider startMenuSlidingContent">
+                        <center><img src="https://bordeaux.surge.sh/Bordeaux.png" class="icon" alt="arras icon"></center>
+                        <h1 id="title">bordeaux.io</h1>
+                        <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of" id="playerNameInput" maxlength="24"> <input type="password" style="display:block" autofocus tabindex="1" spellcheck="false" placeholder="Enter your token" id="playerKeyInput" maxlength="128"> 
+                     </div>
+                     <div class="slider" id="startMenuSlidingTrigger">
+                        <h3> <span id="viewOptionText">view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i> </h3>
+                     </div>
+                     <div class="slider startMenuSlidingContent">
+                        <div class="controlTable optionsHeader">Advanced Controls <i id="resetControls" class="reset resetControls" title="Reset controls"></i><i id="moreControls" class="moreControls cross" title="More controls"></i></div>
+                        <table class="controlTable" id="controlTable">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_AUTO_FIRE">E</b><span> - </span>auto-fire</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_AUTO_SPIN">C</b><span> - </span>auto-spin</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_OVER_RIDE" data-help="KEY_OVER_RIDE">R</b><span> - </span>disable AI</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_LEVEL_UP" data-help="KEY_LEVEL_UP">N</b><span> - </span>level up</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_REVERSE_TANK">V</b><span> - </span>reverse tank</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_REVERSE_MOUSE">B</b><span> - </span>reverse mouse</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_SCREENSHOT">Q</b><span> - </span>screenshot</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_UPGRADE_MAX">M</b><span> - </span>maximize stat</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CLASS_TREE">T</b><span> - </span>show class tree</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_RECORD">Z</b><span> - </span>record video</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_UP">W</b><span> - </span>move up</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_PING">L</b><span> - </span>show latency</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_LEFT">A</b><span> - </span>move left</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_DOWN">S</b><span> - </span>move down</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_RIGHT">D</b><span> - </span>move right</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_1" data-help="KEY_CHOOSE_1">Y</b><span> - </span>upgrade 1</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_2" data-help="KEY_CHOOSE_2">U</b><span> - </span>upgrade 2</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_3" data-help="KEY_CHOOSE_3">I</b><span> - </span>upgrade 3</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_4" data-help="KEY_CHOOSE_4">H</b><span> - </span>upgrade 4</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_5" data-help="KEY_CHOOSE_5">J</b><span> - </span>upgrade 5</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_6" data-help="KEY_CHOOSE_6">K</b><span> - </span>upgrade 6</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_7" data-help="KEY_CHOOSE_7"></b><span> - </span>upgrade 7</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_8" data-help="KEY_CHOOSE_8"></b><span> - </span>upgrade 8</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_9" data-help="KEY_CHOOSE_9"></b><span> - </span>upgrade 9</div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <div class="optionsHeader">Themes & Graphics</div>
+                        <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
+                           <option value="normal">Light Colors</option>
+                           <option value="dark">Dark Colors</option>
+                           <option value="natural">Natural</option>
+                           <option value="obstar">Obstar</option>
+                           <option value="dexamenes">Dexamenes</option>
+                           <option value="oldmaxtri">Old Maxtri</option>
+                           <option value="classic">Classic</option>
+                           <option value="pumpkin">Pumpkin Skeleton (Fan-made)</option>
+                           <option value="forest">Forest (Fan-made)</option>
+                           <option value="midnight">Midnight (Fan-made)</option>
+                           <option value="pastel">Snow (Fan-made)</option>
+                           <option value="bordeaux">Snow 2</option>
+                           <option value="ocean">Coral Reef (Fan-made)</option>
+                           <option value="badlands">Badlands (Fan-made)</option>
+                           <option value="bleach">Bleach (Fan-made)</option>
+                           <option value="custom">Custom</option>
+                        </select>
+                        <select id="optMobile" tabindex="-1">
+                           <option value="joysticks">Joysticks</option>
+                           <option value="desktop">Desktop</option>
+                        </select>
+                        <select id="optBorders" tabindex="-1">
+                           <option value="normal">Soft Borders</option>
+                           <option value="dark">Dark Borders</option>
+                           <option value="neon">Neon Mode</option>
+                           <option value="glass">Glass Mode</option>
+                        </select>
+                        <input id="optCustom" style="display: none;" placeholder="Enter your theme code here"> 
+                        <div style="height:5px;"></div>
+                        <div class="shadowScroll" style="height:125px">
+                        <table>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optScreenshotMode" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Screenshot Mode</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optNoPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Classic Traps</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optFancy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Low Graphics</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optPredictive" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Disable Hyperactivity</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optDiep" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Diep Style</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Edges</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optPointyText" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Text</label> </div>
+                              </td>
+                              <!--<td><div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div></td>--> 
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optArrasStyle" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Arras UI</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optArrasNight" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Arras Night</label> </div>
+                              </td>
+                              <!--<td><div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div></td>--> 
+                           </tr>
+                           <tr>
+                             <td>
+                                 <div> <label class="container"><input id="optDisablePets" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Disable Pets</label> </div>
+                              </td>
+                             <td>
+                                 <div> <label class="container"><input id="optBetaArras" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Beta Arras</label> </div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="optionsHeader">Choose Your Colored Name! (New)</div>
+                          <select id="optNameColor" tabindex="-1" style="width: 100%;">
+                           <option value="-1">Custom</option>
+                           <option value="0">None</option>
+                           <option value="1">Blue</option>
+                           <option value="2">Grey</option>
+                           <option value="3">Red</option>
+                           <option value="4">Green</option>
+                           <option value="5">Yellow</option>
+                           <option value="6">Purple</option>
+                        </select>
+                          <div class="optionsHeader">NOTE: Use custom if you want to use your own namecolor.</div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="startButtonHolder"> <button id="startButton" tabindex="2">Play</button> </div>
+               </div>
+               <div class="startMenuHolder" style="left: 10px">
+                  <div class="optionsHeader">Servers</div>
+                  <div class="serverSelector shadowScroll">
+                     <table>
+                        <tbody id="serverSelector"></tbody>
+                     </table>
+                  </div>
+                  <div class="optionsHeader">Changelog</div>
+                  <!-- changelog start --> 
+                  <div id="patchNotes" class="shadowScroll updates">
+                     <b style="color:red">Sorry if the updates are taking so long, i am trying my best. If the game doesnt work, try doing CTRL + F5.</b>
+                     <hr>
+                     <b>20 February 2021 (v0.0.5) Another GIANT update, i need to stop</b> 
+                     <ul>
+                        <li>Added <b>Shape Apocalypse</b>, a single team gamemode where there are 5 phases, and you have to complete them all without getting your healers killed. Each phase gets harder as you pass. You have to kill <b>Shape Monsters</b> for in order to complete the phases while they attack you and your healers. Dont let your crew healers die!</li>
+                        <li>Added <b>Negator</b>. A Predator artillery.</li>
+                        <li>Added <b>Arras UI</b>. Use this if you want the original arras experience</li>
+                        <li>Fixed the <b>Ball Dominators</b> glitch.</li>
+                        <li>Added <b>Arras Night</b>. A shader i made that makes arras look more realistic. Recommended with <b>Shadows</b></li>
+                        <li>Added <b>Disable Pets</b>. A option if you have a pet and want to disable it.</li>
+                        <li>Added <b>Machine Gun II</b>. <a href="https://media.discordapp.net/attachments/790775022259666984/816782566320242749/unknown.png">Image</a></li>
+                        <li>Removed the background particles.</li>
+                        <li>Optimized the client-server communication.</li>
+                        <li>Optimized the client a bit.</li>
+                        <li>Added a new implementation of lerp! It makes the game butter smooth. It will be also included in <b style="color:blue">Dexamenes.io</b> and <b style="color:red">Woomy-Arras</b> soon!</li>
+                        <li>Well, yeah. Realized its kinda stupid to split all the files, so i merged app.js to one file.</li>
+                        <li>The upgrade icons now show the color of the tank, if the color exists.</li>
+                        <li>Added <b>Beta Arras</b>. It gives the old arras experience.</li>
+                        <li>Added a bunch of new sentries, such as:</li>
+                        <b>Annoyer</b>
+                        <b>Overcrasher</b>
+                        <b>Arrower</b>
+                        <b>Squwarm</b>
+                        <b>TRIB-I</b>
+                        <b>TRIB-II</b>
+                        <b>TRIB-III</b>
+                        <b>TRIB-IV</b>
+                        <b>Windspike</b>
+                        <b>Clasher</b>
+                        <a href="https://cdn.discordapp.com/attachments/790772677588549672/818975131488485427/unknown.png">IMAGES</a>
+                        <li>Now if a server is down, they dissapear from the serverselector.</li>
+                        <li>Increased player limit to <b>15</b></li>
+                        <li>You now can choose a namecolor from view options, if you want!</li>
+                        <li><b>NOTE: Custom will only work if you have a custom namecolor.</b></li>
+                        <li>Bots now spawn with spawn protection.</li>
+                        <li><b style="color:green">Thanks to KA2 for suggesting these balance changes below.</b></li>
+                        <li>Nerfed <b>Spammer</b> reload by 1%</li>
+                        <li>Nerfed <b>Bomber</b> movement speed by 0.01%</li>
+                        <li>Buffed <b>Turret</b> speed by 0.35%</li>
+                        <li>Buffed <b>Ordnance</b> damage by 0.05%</li>
+                        <li>Buffed <b>X-Predator</b> movement speed by 1%</li>
+                        <li>Buffed <b>Negator</b> damage by 2%</li>
+                     </ul>
+                     <b style="color:red">Please report bugs if you find one. It would be greatly appreciated.</b>
+                     <hr>
+                     <b>5 February 2021 (v0.0.4) Some bugfix and new tanks</b> 
+                     <ul>
+                        <li>Moved to nepphhh from imp-template, basically made my own client</li>
+                        <li>By the way, mobile controls are still in beta so expect there to be bugs</li>
+                        <li>Added #private to the client, so you can use our client to play your server! <b style="color: blue">https://bordeaux.surge.sh/#private=arras-template.glitch.me</b></li>
+                        <li>Added some.. beautiful particles in the background?</li>
+                        <li>Fixed the bug where teal team was yellow in 5TDM</li>
+                        <li>Removed "Use New Interpolation", you cannot escape the old interpolation! :D</li>
+                        <li>Just kidding, added lerp interpolation, basically what diep uses, and its default now.</li>
+                        <li>Fixed <b>Ordnance</b> crash bug.</li>
+                        <li>Added <b>Ordnance II</b>, a hunter that is merged with a mortar. Upgrades from mortar and ordnance</li>
+                        <li>Added <b>Sniper Trapper</b>, self explanatory. Upgrades from sniper and trapper</li>
+                        <li>Added <b>Conctor</b>, a constructor that can... zoom? Upgrades from constructor</li>
+                        <li>Added some <b>Cool easter egg names.</b></li>
+                        <li>Added <b>2TKR (2 Team Kill Race)</b> from maxtri, a 2 team gamemode where theres a 10 minute timer, and the team with most kills wins.</li>
+                        <li>Added Mothership gamemode, and you can control them if they are not being controlled.</li>
+                        <li>Nerfed <b>Engineer pillbox speed</b>.</li>
+                     </ul>
+                     <hr>
+                     <b>12 January 2021 (v0.0.3) Big domination update</b> 
+                     <ul>
+                        <li>Removed [AI] from bot names, and made bots walk around</li>
+                        <li>Made dominators controllable, press j to control your team dominator.</li>
+                        <li>Added Diep.io styled gui</li>
+                        <li>Added 2 new dominator types, which are <b>Gunner Dominator</b>, <b>Machine Dominator</b></li>
+                        <li>Added 4 Team domination</li>
+                        <li>Added shadows, you can enable them in settings!</li>
+                        <li>Put some new tanks in beta testing :D</li>
+                        <li>Changed the maze generation</li>
+                        <li>The balance changes below are from Ivyxgen64, which is a new bt! Welcome</li>
+                        <li>Nerfed <b>Hylite</b> bullet damage by 5%</li>
+                        <li>Nerfed <b>Hybrid</b> bullet damage by 3%</li>
+                        <li>Nerfed <b>Hybit</b> bullet damage by 7%</li>
+                        <li>Nerfed <b>Twin Machine</b> bullet damage by 3%</li>
+                        <li>Made <b>Twin Sniper</b> shoot slower by 3%</li>
+                        <li>Made <b>Bent Machine</b> shoot faster by 5% and buffed its bullet damage by 3%</li>
+                        <li>Buffed <b>Engineer</b> Auto-Turret by 10%</li>
+                        <li>Buffed <b>Auto-Smasher</b> speed by 4%</li>
+                     </ul>
+                     <hr>
+                     <div>
+                        <b>29 December 2020 (v0.0.2) Some patches and nerfs buffs</b> 
+                        <ul>
+                           <li>Fixed the 2TDM and 2 Team Domination team bug.</li>
+                           <li>Added Maze, 2TDM Maze, 4TDM Maze and 5TDM</li>
+                           <li>Added Auto-Tank branch.</li>
+                           <li>Nerfed Bent Machine's bullet damage by 8%. - AndroidUser</li>
+                           <li>Buffed Spike's speed by 8%. - AndroidUser</li>
+                           <li>Nerfed Bomber's bullet damage by 16%. - AndroidUser</li>
+                           <li>Buffed Factorys speed by 5%. - AndroidUser</li>
+                           <li>Buffed minion bullet damage by 8%. - AndroidUser</li>
+                           <li>Buffed minion speed by 4%. - AndroidUser</li>
+                           <li>Thanks to AndroidUser for reporting the first balance changes!</li>
+                        </ul>
+                        <hr>
+                     </div>
+                     <div>
+                        <b>28 December 2020 (v0.0.1) Release</b> 
+                        <ul>
+                           <li>Succesfully released the server with lots of new tanks!</li>
+                           <li>Have fun playing!</li>
+                           <li><b style="color:cyan">NOTE:</b> All the server gamemodes are randomized, so you can play without lag on any country!</li>
+                        </ul>
+                        <hr>
+                     </div>
+                     <div>
+                        <b>21 December 2020 (v0.0.0)</b> 
+                        <ul>
+                           <li>Still in beta. not public</li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h3> Hello scroller! </h3>
+                        
+                     </div>
+                  </div>
+                  <!-- changelog end --> 
+                  <div class="optionsHeader">Other</div>
+                  <div class="bottomHolder" style="width:1000px;"> <a style="background:#00b2e1" href="https://maxtri.netlify.app">Maxtri.io</a> <a style="background:linear-gradient(to bottom, blue, white)" href="http://dexamenes.surge.sh/play">Dexamenes.io</a> <a style="background:#7289da" href="https://discord.gg/zgmFgXJAg2">Discord</a> </div>
+               </div>
             </div>
-            <div class="slider startMenuSlidingContent">
-              <div class="controlTable optionsHeader" title="More Controls" onclick="PlaySound3()" >Advanced Controls <i id="resetControls" class="reset resetControls" title="Reset controls"></i><i id="moreControls" class="moreControls cross" title="More controls"></i></div>
-              <table class="controlTable" id="controlTable">
-                <tbody>
-                  <tr>
-                    <td><div><b data-key="KEY_AUTO_FIRE">E</b><span> - </span>auto-fire</div></td>
-                    <td><div><b data-key="KEY_AUTO_SPIN">C</b><span> - </span>auto-spin</div></td>
-                    <td><div><b data-key="KEY_OVER_RIDE">R</b><span> - </span>disable AI</div></td>
-                  </tr>
-                  <tr>
-                    <td><div><b data-key="KEY_LEVEL_UP">N</b><span> - </span>level up</div></td>
-                    <td><div><b data-key="KEY_CHAT" data-help="KEY_CHAT">/</b><span> - </span>chat</div></td>
-                    <td><div><b data-key="KEY_ABILITY" data-help="KEY_ABILITY">U</b><span> - </span>a thing</div></td>
-                  </tr>
-                  <tr>
-                    <td><div><b data-key="KEY_SCREENSHOT">Q</b><span> - </span>screenshot</div></td>
-                    <td><div><b data-key="KEY_UPGRADE_MAX">M</b><span> - </span>maximize stat</div></td>
-                    <td><div><b data-key="KEY_CLASS_TREE">Y</b><span> - </span>show class tree</div></td>
-                  </tr>
-                  <tr class="hidden">
-                    <td><div><b data-key="KEY_RECORD">Z</b><span> - </span>record video</div></td>
-                    <td><div><b data-key="KEY_UP">W</b><span> - </span>move up</div></td>
-                    <td><div><b data-key="KEY_PING">L</b><span> - </span>show latency</div></td>
-                  </tr>
-                  <tr class="hidden">
-                    <td><div><b data-key="KEY_LEFT">A</b><span> - </span>move left</div></td>
-                    <td><div><b data-key="KEY_DOWN">S</b><span> - </span>move down</div></td>
-                    <td><div><b data-key="KEY_RIGHT">D</b><span> - </span>move right</div></td>
-                               </tr>
-                  <tr class="hidden">
-                    <td><div><b data-key="KEY_CHOOSE_1" data-help="KEY_CHOOSE_1">Y</b><span> - </span>upgrade 1</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_2" data-help="KEY_CHOOSE_2">U</b><span> - </span>upgrade 2</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_3" data-help="KEY_CHOOSE_3">I</b><span> - </span>upgrade 3</div></td>
-                  </tr>
-                  <tr class="hidden">
-                    <td><div><b data-key="KEY_CHOOSE_4" data-help="KEY_CHOOSE_4">H</b><span> - </span>upgrade 4</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_5" data-help="KEY_CHOOSE_5">J</b><span> - </span>upgrade 5</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_6" data-help="KEY_CHOOSE_6">K</b><span> - </span>upgrade 6</div></td>
-                  </tr>
-                  <tr class="hidden">
-                    <td><div><b data-key="KEY_CHOOSE_7" data-help="KEY_CHOOSE_7"></b><span> - </span>upgrade 7</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_8" data-help="KEY_CHOOSE_8"></b><span> - </span>upgrade 8</div></td>
-                    <td><div><b data-key="KEY_CHOOSE_9" data-help="KEY_CHOOSE_9"></b><span> - </span>upgrade 9</div></td>
-                  </tr>
-                </tbody>
-              </table>
-              <input type="text" tabindex="1"  title="Bypass spawn prevention" placeholder="Bypass Token" id="playerTokenInput" maxlength="48">
-              <div class="optionsHeader">Themes & Graphics </div>
-              <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
-                <option value="normal">Light Colors</option>
-                <option value="dark">Dark Colors</option>
-                <option value="natural">Natural</option>
-                <option value="classic">Classic</option>
-                                 <option value="obstar">Obstar</option>
-                                                <option value="diep">Diep.io</option>
-                <option value="custom">Custom</option>
-              </select>
-              <select id="optMobile" tabindex="-1">
-                <option value="joysticks">Joysticks</option>
-                <option value="desktop">Desktop</option>
-              </select>
-              <select id="optBorders" tabindex="-1">
-                <option value="normal">Soft Borders</option>
-                <option value="dark">Dark Borders</option>
-                <option value="neon">Neon Mode</option>
-                <option value="glass">Glass Mode</option>
-              </select> 
-              <input id="optCustom"  style="display:none" placeholder="Enter your theme code here">
-              <table>
-                <tr>
-                  <td><div>
-                    <label class="container"><input id="optScreenshotMode" onmouseover="PlaySound1()" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Screenshot Mode</label>
-                  </div></td>
-                  <td><div>
-                    <label class="container"><input id="optNoPointy" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Classic Traps</label>
-                  </div></td>
-                </tr><tr>
-                  <td><div>
-                    <label class="container"><input id="optFancy" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Low Graphics</label>
-                  </div></td>
-                  <td><div>
-                    <label class="container"><input id="optShield" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Separate Shield Bar</label>
-                  </div></td>
-                </tr><tr>
-                  <td><div>
-                    <label class="container"><input id="optAutoLevel" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Auto-Level Up</label>
-                  </div></td>
-                  <td><div>
-                    <label class="container"><input id="optPrediction" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Use New Interpolation</label>
-                  </div></td>
-                </tr><tr>
-                  <td><div>
-                    <label class="container"><input id="optPointy" onclick="PlaySound()" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Edges</label>
-             </div></td>
-                  <td><div>
-                    <label class="container"><input id="optSound" tabindex="-1" class="checkbox" type="checkbox" onclick="switchAudio()"><span class="checkmark"></span>Music</label>
-                  </div></td> <!-- Toggleable audio via checkbox -->
-                </tr>
-              </table>
-              <div id="bottomHolder">
-            <a style="background:#ffa500" onclick="PlaySound()" onmouseover="PlaySound1()" title="A link to the developer's Glitch Profile!" href="glitch.com/@Nyx_The_Celestial" target="_blank" rel="noopener noreferrer">Support The Dev!</a>
-                 <a style="background:#ffa500" onclick="PlaySound()" onmouseover="PlaySound1()" title="A custom theme creator" href="https://codepen.io/road-to-100k/full/GRpvMzb" target="_blank" rel="noopener noreferrer">Theme Creator</a>
-                       <a style="background:#ffa500" onclick="PlaySound()" onmouseover="PlaySound1()" title="A link to woomy arras!" href="woomy.arras.cx" target="_blank" rel="noopener noreferrer">Woomy</a>
-                 <a style="background:#C98913" onclick="PlaySound()" onmouseover="PlaySound1()" href="https://arras.io" title="Official Arras.io" target="_blank" rel="noopener noreferrer">Arras.io</a>
-                    <a style="background:#C98913" onclick="PlaySound()" onmouseover="PlaySound1()" href="https://glitch.com/~arras-template3" title="Create your own private server!" target="_blank" rel="noopener noreferrer">Template (newer)</a>
-            <a style="background:#C98913" onclick="PlaySound()" onmouseover="PlaySound1()" href="https://glitch.com/~arras-template" title="Create your own private server" target="_blank" rel="noopener noreferrer">Template</a>
-          </div>
-            </div>
-          </div>
-          <div style="position: relative; bottom: -10px;">
-            <button id="startButton" onmouseover="PlaySound1()" title="Start the mayhem" tabindex="2">Play</button>
-          </div>
-        </div>
-        <div class="startMenuHolder shrinkable">
-          <div class="changelogSelectorContainer">
-          <div class="changelogSelector" id="changelogSelector">
-              <span data-type="changelog" onmouseover="PlaySound1()" title="More bullets than Touhou">Changelog</span>
-            </div>
-          </div>
-          <div id="patchNotes" class="shadowScroll updates"></div>
-        </div>
+         </div>
       </div>
-    </div>
-  </div>
-  <!-- JS -->
-  <script>
-  window.onerror = function(message, source, lineno, colno, error) {
-    window.onerror = null
-    if (error) error = error.toString()
-    console.warn('The game crashed, refreshing page to recover from the error')
-    if (error == null && lineno == 0 && colno == 0) return
-    var e = JSON.stringify({
-      message: message,
-      source: source,
-      lineno: lineno,
-      colno: colno,
-      error: error
-    })
-    prompt('The Game has crashed, due to an unknown server error, please check code Error information:', e)
-  }
-  </script>
-  <script src="./bundle.js"></script>
-</body>
+      <script> window.uiSize = 1; </script> <script src="//code.jquery.com/jquery-2.2.0.min.js"></script> <script src="js/app.js"></script>
+   </body>
 </html>
