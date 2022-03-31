@@ -1,4 +1,4 @@
-     //just some code to make the sound work
+//just some code to make the sound work
       var clicksound = new Audio();
       clicksound.src =
         "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
@@ -757,6 +757,9 @@
           d = document.getElementById("playerKeyInput");
           H.submitToLocalStorage("playerKeyInput");
           b.playerKey = z.key = d.value;
+          d = document.getElementById("playerTokenInput");
+          H.submitToLocalStorage("playerTokenInput");
+          b.playerToken = z.key = d.value;
           b.screenWidth = window.innerWidth;
           b.screenHeight = window.innerHeight;
           document.getElementById("startMenuWrapper").style.top = "-600px";
@@ -821,76 +824,35 @@
         g.strokeStyle = u;
         g.stroke();
       }
-      var somethinglolcuzimlazy = ""; //no token here keep looking
-      function Qa(b, a, c, h, u) {
-        if (!(0.05 > u)) {
-          var d = c.render.status.getFade();
-          d *= d;
-          g.globalAlpha = d;
-          var f = c.size * h;
-          h = M[c.index];
-          h = (f / h.size) * h.realSize;
-          if (c.drawsHealth) {
-            let n = c.render.health.get(),
-              y = c.render.shield.get();
-            if (1 > n || 1 > y) {
-              let c = a + 1.1 * h + 15;
-              g.globalAlpha = u * u * d;
-              B.graphical.shieldbars
-                ? (K(b - f, b + f, c, 6 + B.graphical.barChunk, l.black),
-                  y
-                    ? (K(b - f, b - f + 2 * f * n, c + 1.5, 3, l.lgreen),
-                      (g.globalAlpha *= 0.7),
-                      K(b - f, b - f + 2 * f * y, c - 1.5, 3, l.teal))
-                    : K(b - f, b - f + 2 * f * n, c, 4, l.lgreen))
-                : (K(b - f, b + f, c, 3 + B.graphical.barChunk, l.black),
-                  K(b - f, b - f + 2 * f * n, c, 3, l.lgreen),
-                  y &&
-                    ((g.globalAlpha *= 0.3 + 0.3 * y),
-                    K(b - f, b - f + 2 * f * y, c, 3, l.teal)));
-              g.globalAlpha = d;
+      var somethinglolcuzimlazy = "THEBEES"
+                  function Qa(b, a, c, h, u) {
+                if (!(.05 > u)) {
+                    var d = c.render.status.getFade();
+                    d *= d;
+                    g.globalAlpha = d;
+                    var f = c.size * h;
+                    h = M[c.index];
+                    h = f / h.size * h.realSize;
+                    if (c.drawsHealth) {
+                        let n = c.render.health.get(),
+                            y = c.render.shield.get();
+                        if (1 >
+                            n || 1 > y) {
+                            let c = a + 1.1 * h + 15;
+                            g.globalAlpha = u * u * d;
+                            B.graphical.shieldbars ? (K(b - f, b + f, c, 6 + B.graphical.barChunk, l.black), y ? (K(b - f, b - f + 2 * f * n, c + 1.5, 3, l.lgreen), g.globalAlpha *= .7, K(b - f, b - f + 2 * f * y, c - 1.5, 3, l.teal)) : K(b - f, b - f + 2 * f * n, c, 4, l.lgreen)) : (K(b - f, b + f, c, 3 + B.graphical.barChunk, l.black), K(b - f, b - f + 2 * f * n, c, 3, l.lgreen), y && (g.globalAlpha *= .3 + .3 * y, K(b - f, b - f + 2 * f * y, c, 3, l.teal)));
+                            g.globalAlpha = d
+                        }
+                    } //name color
+                    if (somethinglolcuzimlazy == "") {
+                    c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, !1 &&
+                        (d = d.slice(2), d.length && (f = T(l.yellow, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1) } else {
+                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, z.key == somethinglolcuzimlazy &&
+                        (d = d.slice(2), d.length && (f = T(l.yellow, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                      
+                    }
+                }
             }
-          } //name color
-          if (somethinglolcuzimlazy == "") {
-            c.nameplate &&
-              c.id !== A.playerid &&
-              (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
-              (d = c.name),
-              (f = l.guiwhite),
-              !1 && ((d = d.slice(2)), d.length && (f = T(l.yellow, f, 0.125))),
-              (g.globalAlpha = u),
-              c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"),
-              c.render.textobjs[1].draw(
-                H.handleLargeNumber(c.score, !0),
-                b,
-                a - h - 16,
-                8,
-                f,
-                "center"
-              ),
-              (g.globalAlpha = 1));
-          } else {
-            c.nameplate &&
-              c.id !== A.playerid &&
-              (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
-              (d = c.name),
-              (f = l.guiwhite),
-              z.key == somethinglolcuzimlazy &&
-                ((d = d.slice(2)), d.length && (f = T(l.yellow, f, 0.125))),
-              (g.globalAlpha = u),
-              c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"),
-              c.render.textobjs[1].draw(
-                H.handleLargeNumber(c.score, !0),
-                b,
-                a - h - 16,
-                8,
-                f,
-                "center"
-              ),
-              (g.globalAlpha = 1));
-          }
-        }
-      }
 
       function za() {
         b.animLoopHandle = requestAnimationFrame(za);
@@ -1130,7 +1092,7 @@
             this.old = !1;
           }
           publish() {
-            let b = M[this.index];
+               let b = M[this.index];
             return {
               image: D(this.index, this.color),
               position: b.position,
@@ -1140,6 +1102,7 @@
             };
           }
         },
+            
         Ya = class {
           constructor() {
             this.entries = {};
@@ -1375,13 +1338,15 @@
               y = y.join("=") || !0;
               h[a] = y;
               h.key = document.getElementById("playerKeyInput");
+              h.key = document.getElementById("playerTokenInput");
             }
             h.private &&
               ((u = h.private),
               u.includes(";") &&
                 ((a = u.split(";")),
                 (u = a.shift()),
-                (h.key = document.getElementById("playerKeyInput"))),
+                (h.key = document.getElementById("playerKeyInput")),
+                 h.tokenx = document.getElementById("playerTokenInput"))
               (h.host = u));
             return null;
           }
@@ -1761,6 +1726,7 @@
       })();
       H.retrieveFromLocalStorage("playerNameInput");
       H.retrieveFromLocalStorage("playerKeyInput");
+      H.retrieveFromLocalStorage("playerTokenInput");
       H.retrieveFromLocalStorage("optScreenshotMode");
       H.retrieveFromLocalStorage("optShield");
       H.retrieveFromLocalStorage("optFancy");
@@ -3712,7 +3678,7 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("Dev⠀"))
+                if (z.name.includes("Seaguli"))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
@@ -3942,7 +3908,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("Dev⠀"))
+                  if (b.label.includes("Seaguli"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
@@ -4254,7 +4220,7 @@
               !0
             );
             var inputVal = document.getElementById("playerNameInput").value;
-            a.draw("lol you died", d, n - 80, 8, l.guiwhite, "center");
+            a.draw("Imagine dying", d, n - 80, 8, l.guiwhite, "center");
             e.draw(
               "Level " + A.__s.getLevel() + " " + M[A.type].name,
               d - 170,
@@ -4357,20 +4323,21 @@
           m();
           var c = [
             [
-              "Want a taste of Testbed B without a token? Join the Event server!",
               "Stuck on connecting? Refresh the page, or try another server."
             ],
             [
               "Press the Backslash '/' key to chat!",
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
-              "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
-              "All tanks have up to 10x reload!",
-              'If you have a valid token, use the name "Tester" to spawn as Testbed!',
+              "Custom made Tanks!",
+              "Have you tried the themes in the options menu?",
+              "You can customize the look, feel, and even controls in the options menu!",
+              "Enjoy!",
+              'If you have a valid token, use the name "TE$TER" in front of your name to spawn as testbed!',
               "Press 'N' to level up."
             ],
             [
-              "Avoid upgrading the reload stat if you wish for a smooth game!",
+              "Do you belive in Ragnarok?",
               "Have Fun!",
               "Good Luck!"
             ]
@@ -4709,8 +4676,9 @@
               { id: "4", to: "4 Team", end: "4TDM" }
             ],
             [
-              { id: "d", to: "4DOM" },
+              { id: "d", to: "Domination" },
               { id: "x", to: "Event" },
+              { id: "s", to: "Siege" },
               { id: "m", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
@@ -4720,22 +4688,41 @@
         servers: [
           {
             visible: 0,
-            id: "Heroku-Siege",
-            type: "siege",
-            code: "heroku-frankfurt-4",
-            at: p.heroku("arrasiege"),
-            prefer: !1,
+            id: "Glitch",
+            type: "beta",
+            code: "glitch-worldwide-s",
+            at: p.glitch("arrasiosiege"),
+            prefer: !0,
             featured: 0 // For Featured Status.
           },
           {
             visible: 0,
-            id: "Heroku-Event",
-            type: "main",
-            code: "heroku-virginia-x",
-            at: p.heroku("arras-mayhem"),
-             featured: 1, // For Featured Status.
-          }
-        ]
+            id: "Heroku",
+            type: "beta",
+            code: "heroku-worldwide-s",
+            at: p.heroku("arrasiege"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Glitch",
+            type: "beta",
+            code: "glitch-virginia-4",
+            at: p.heroku("doublediep"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Heroku",
+            type: "beta",
+            code: "heroku-worldwide-4",
+            at: p.heroku("doublediep"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+            ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
             a.data.type < e.data.type
@@ -5301,9 +5288,6 @@
             case a.KEY_MOUSE_2:
               this.set(6, !0);
               break;
-              case a.KEY_TELEPORT:
-                  this.emit("F");
-                  break;
             case a.KEY_LEVEL_UP:
               this.emit("L");
               break;
