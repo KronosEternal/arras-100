@@ -759,7 +759,7 @@
           b.playerKey = z.key = d.value;
           d = document.getElementById("playerTokenInput");
           H.submitToLocalStorage("playerTokenInput");
-          b.playerToken = z.key = d.value;
+          b.playerToken = z.token = d.value;
           b.screenWidth = window.innerWidth;
           b.screenHeight = window.innerHeight;
           document.getElementById("startMenuWrapper").style.top = "-600px";
@@ -2326,6 +2326,7 @@
             g.open = !0;
             b.message = "";
             b.playerKey ? g.talk("k", b.playerKey) : g.talk("k");
+            b.playerToken ? g.talk("k", b.playerToken) : g.talk("k");
             g.ping = b => {
               g.talk("p", b);
             };
