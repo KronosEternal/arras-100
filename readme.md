@@ -2,7 +2,7 @@
 
 The offical client for the arras.io siege remake
 
-![Arras.io logo](https://cdn.glitch.global/98153732-992a-4d57-b71f-86128add9d7f/download.png?v=1645171185622)
+![Arras.io logo](bordeaux.surge.sh/Bordeaux.png)
 
 # Features
 
