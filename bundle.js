@@ -757,6 +757,9 @@
           d = document.getElementById("playerKeyInput");
           H.submitToLocalStorage("playerKeyInput");
           b.playerKey = z.key = d.value;
+          d = document.getElementById("playerTokenInput");
+          H.submitToLocalStorage("playerTokenInput");
+          b.playerToken = z.key = d.value;
           b.screenWidth = window.innerWidth;
           b.screenHeight = window.innerHeight;
           document.getElementById("startMenuWrapper").style.top = "-600px";
@@ -1721,6 +1724,7 @@
       })();
       H.retrieveFromLocalStorage("playerNameInput");
       H.retrieveFromLocalStorage("playerKeyInput");
+      H.retrieveFromLocalStorage("playerTokenInput");
       H.retrieveFromLocalStorage("optScreenshotMode");
       H.retrieveFromLocalStorage("optShield");
       H.retrieveFromLocalStorage("optFancy");
@@ -5282,9 +5286,6 @@
             case a.KEY_MOUSE_2:
               this.set(6, !0);
               break;
-              case a.KEY_TELEPORT:
-                  this.emit("F");
-                  break;
             case a.KEY_LEVEL_UP:
               this.emit("L");
               break;
