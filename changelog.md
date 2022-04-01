@@ -1,3 +1,12 @@
+# A P R I L  F O O L S
+- disabled tokens for god mode and testbed temporarily
+- try using testbed, you will crash your game lel
+- sanctuaries can move and attack
+- BOSSES
+- more doom
+- fun
+- happy april fools
+- this will last until April 5th
 # Client updates
 - amount of available themes increased from 6 to 14
 - theme and background has changed
