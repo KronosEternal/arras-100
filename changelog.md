@@ -1,3 +1,9 @@
+# Client updates
+- amount of available themes increased from 6 to 14
+- theme and background has changed
+- working on changes for spawn bypass token (which will also be obfuscated)
+# That took some time
+- i have finally hidden the dev token by adding to a .env file
 # More Updates
 - now i FIXED the actual commands and stuff linked to token
 - linked token to an .env variable
