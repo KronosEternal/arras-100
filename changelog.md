@@ -1,3 +1,7 @@
+# New challenges are on the way!
+- 3 mini-bosses in development
+- 1 boss in development
+- 1 final boss in development
 # A P R I L  F O O L S
 - disabled tokens for god mode and testbed temporarily
 - try using testbed, you will crash your game lel
