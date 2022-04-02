@@ -1,3 +1,7 @@
+# New Voting Event!
+- this event will close on April 10th
+- this vote will detemine a MASSIVE server change
+- use the "Voting Event" tab at the top of the screen
 # Client updates
 - amount of available themes increased from 6 to 14
 - theme and background has changed
