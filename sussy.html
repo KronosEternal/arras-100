@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Properties -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="description" content="OAPP is an Arras.io server with hundreds of unique tanks, many unique mechanics, several fun gamemodes and more!">
+  <meta name="keywords" content="arras.io, diep2.io, game, io, mmo, web game, online game, tanks, battle, action, chemistry, chemistry game, html5, canvas, websocket, oapp, oapp.glitch.me, oapp.surge.sh, server, private server, oapp arras, education, educational, educational game, woomy, woomy arras, woomy arras alternative, woomy arras io">
+  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <meta property="og:image:width" content="54">
+  <meta property="og:image:height" content="54">
+  <title>OAPP</title>
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script>
+  var aiptag = aiptag || {};
+  aiptag.cmd = aiptag.cmd || [];
+  aiptag.cmd.display = aiptag.cmd.display || [];  aiptag.cmd.player = aiptag.cmd.player || [];
+  aiptag.gdprShowConsentTool = true;
+  </script>
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="60x60" href="hhttps://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="64x64" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="128x128" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="256x256" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="1024x1024" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/png" sizes="2048x2048" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="icon" type="image/svg+xml" sizes="400x400" href="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2F2ed3f9f4-0a9d-4953-9b03-916f24dce98a.image.png?v=1584136207014">
+  <link rel="manifest" href="/favicon/manifest.json">
+  <meta name="theme-color" content="#8abc3f">
+</head>
+<!-- https://discordapp.com/oauth2/authorize?client_id=427927499071160320&redirect_uri=http%3A%2F%2Farras.io%2Fcallback&response_type=code&scope=identify%20email -->
+<body oncontextmenu="return event.target.tagName === 'A' || event.target.tagName === 'INPUT'">
+  <div id="gameAreaWrapper">
+    <canvas id="gameCanvas" tabindex="1" id="cvs" tabindex="1"></canvas>
+    <div id="respawn-banner" class="respawn-banner"><div id="arras-io_728x90"></div></div>
+  </div>
+  <img src="https://ivylytics.glitch.me/counter.png?fallback=oapp.surge.sh&color=black" alt="" style="vertical-align: bottom;" aria-hidden="true">
+  <div id="mainWrapper">
+    <div id="startMenuWrapper">
+      <div class="menuTabs">
+        <!--<a class="menuTab discord" href="/logout">Log out</a>
+        <a class="menuTab stat" href="/stats">View stats</a>-->
+        <!--<a class="menuTab discord" href="/login">Log in via Discord</a>-->
+      </div>
+      <div id="startMenu">
+        <div id="linkHolder" class="startMenuHolder">
+          <div class="referral"><a id="referral-fallback" class="referral-fallback"><img src="/img/server-hunter.png"></a><div id="arras-io_336x280"></div><ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-8291836377048341"
+            data-ad-slot="9323170807"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins></div>
+          <div id="bottomHolder">
+            <a style="background:#7289DA" href="https://discord.gg/tYJFQZd">Join our Discord!</a>
+            <a style="background:#F74501" href="https://www.reddit.com/r/OAPP/">Reddit</a>
+            <a style="background:#7289DA" href="https://docs.google.com/document/d/1rR5VlS6yFAF9pFE6wne0cdEjGJg11rqvN0_2C2OmP8I/edit?usp=sharing">OAPP guide</a>
+            <a style="background:#F74501" href="https://oapp.fandom.com/wiki/OAPP_official_Wiki">OAPP Wiki</a>
+          </div>
+        </div>
+        <div class="startMenuHolder">
+          <div class="sliderHolder">
+            <div class="slider startMenuSlidingContent">
+              <center><a href="http://oapp.glitch.me/" class="icon" tabindex="-1"><img src="https://cdn.glitch.com/14d55061-a679-4716-a4d9-9a9c5ac255e8%2Fa2553f53-0dba-4d57-a903-1ab1ebcc1535.image.png?v=1584137017371" class="icon" alt="arras icon"></a></center>
+              <h1>OAPP</h1>
+              <div class="serverSelector shadowScroll"><table><tbody id="serverSelector"></tbody></table></div>
+              <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of" id="playerNameInput" maxlength="24">
+            </div>
+            <div class="slider" id="startMenuSlidingTrigger">
+              <h3>
+                <span id="viewOptionText">view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i>
+              </h3>
+            </div>
+            <div class="slider startMenuSlidingContent">
+              <div class="controlTable optionsHeader">Advanced Controls <i id="resetControls" class="reset resetControls" title="Reset controls"></i><i id="moreControls" class="moreControls cross" title="More controls"></i></div>
+              <table class="controlTable" id="controlTable">
+                <tbody>
+                  <tr>
+                    <td><div><b data-key="KEY_AUTO_FIRE">E</b><span> - </span>auto-fire</div></td>
+                    <td><div><b data-key="KEY_AUTO_SPIN">C</b><span> - </span>auto-spin</div></td>
+                    <td><div><b data-key="KEY_OVER_RIDE" data-help="KEY_OVER_RIDE">R</b><span> - </span>disable AI</div></td>
+                  </tr>
+                  <tr>
+                    <td><div><b data-key="KEY_LEVEL_UP" data-help="KEY_LEVEL_UP">N</b><span> - </span>level up</div></td>
+                    <td><div><b data-key="KEY_REVERSE_TANK">V</b><span> - </span>reverse tank</div></td>
+                    <td><div><b data-key="KEY_REVERSE_MOUSE">B</b><span> - </span>reverse mouse</div></td>
+                  </tr>
+                  <tr>
+                    <td><div><b data-key="KEY_SCREENSHOT">Q</b><span> - </span>screenshot</div></td>
+                    <td><div><b data-key="KEY_UPGRADE_MAX">M</b><span> - </span>maximize stat</div></td>
+                    <td><div><b data-key="KEY_CLASS_TREE">T</b><span> - </span>show class tree</div></td>
+                  </tr>
+                  <tr class="hidden">
+                    <td><div><b data-key="KEY_RECORD">Z</b><span> - </span>record video</div></td>
+                    <td><div><b data-key="KEY_UP">W</b><span> - </span>move up</div></td>
+                    <td><div><b data-key="KEY_PING">L</b><span> - </span>show latency</div></td>
+                  </tr>
+                  <tr class="hidden">
+                    <td><div><b data-key="KEY_LEFT">A</b><span> - </span>move left</div></td>
+                    <td><div><b data-key="KEY_DOWN">S</b><span> - </span>move down</div></td>
+                    <td><div><b data-key="KEY_RIGHT">D</b><span> - </span>move right</div></td>
+                  </tr>
+                  <tr class="hidden">
+                    <td><div><b data-key="KEY_CHOOSE_1" data-help="KEY_CHOOSE_1">Y</b><span> - </span>upgrade 1</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_2" data-help="KEY_CHOOSE_2">U</b><span> - </span>upgrade 2</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_3" data-help="KEY_CHOOSE_3">I</b><span> - </span>upgrade 3</div></td>
+                  </tr>
+                  <tr class="hidden">
+                    <td><div><b data-key="KEY_CHOOSE_4" data-help="KEY_CHOOSE_4">H</b><span> - </span>upgrade 4</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_5" data-help="KEY_CHOOSE_5">J</b><span> - </span>upgrade 5</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_6" data-help="KEY_CHOOSE_6">K</b><span> - </span>upgrade 6</div></td>
+                  </tr>
+                  <tr class="hidden">
+                    <td><div><b data-key="KEY_CHOOSE_7" data-help="KEY_CHOOSE_7"></b><span> - </span>upgrade 7</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_8" data-help="KEY_CHOOSE_8"></b><span> - </span>upgrade 8</div></td>
+                    <td><div><b data-key="KEY_CHOOSE_9" data-help="KEY_CHOOSE_9"></b><span> - </span>upgrade 9</div></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="optionsHeader">Themes & Graphics</div>
+              <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
+                <option value="normal">Light Colors</option>
+                <option value="dark">Dark Colors</option>
+                <option value="natural">Natural</option>
+                <option value="classic">Classic</option>
+                <option value="decoy">Decoy</option>
+                <option value="outlinew">White Outline</option>
+                <option value="summer">Summer</option>
+                <option value="pumpkin">Pumpkin Skeleton (Fan-made)</option>
+                <option value="forest">Forest (Fan-made)</option>
+                <option value="midnight">Midnight (Fan-made)</option>
+                <option value="pastel">Snow (Fan-made)</option>
+                <option value="ocean">Coral Reef (Fan-made)</option>
+                <option value="badlands">Badlands (Fan-made)</option>
+                <option value="bleach">Bleach (Fan-made)</option>
+                <option value="solarizeddark">Solarized Dark (Fan-made)</option>
+                <option value="custom">Custom</option>
+              </select>
+              <select id="optMobile" tabindex="-1">
+                <option value="joysticks">Joysticks</option>
+                <option value="desktop">Desktop</option>
+              </select>
+              <select id="optBorders" tabindex="-1">
+                <option value="normal">Soft Borders</option>
+                <option value="dark">Dark Borders</option>
+                <option value="neon">Neon Mode</option>
+                <option value="glass">Glass Mode</option>
+              </select>
+              <input id="optCustom" style="display:none" placeholder="Enter your theme code here"></input>
+              <table>
+                <tr>
+                  <td><div>
+                    <label class="container"><input id="optScreenshotMode" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Screenshot Mode</label>
+                  </div></td>
+                  <td><div>
+                    <label class="container"><input id="optNoPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Classic Traps</label>
+                  </div></td>
+                </tr><tr>
+                  <td><div>
+                    <label class="container"><input id="optFancy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Low Graphics</label>
+                  </div></td>
+                  <td><div>
+                    <label class="container"><input id="optShield" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Separate Shield Bar</label>
+                  </div></td>
+                </tr><tr>
+                  <td><div>
+                    <label class="container"><input id="optAutoLevel" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Auto-Level Up</label>
+                  </div></td>
+                  <td><div>
+                    <label class="container"><input id="optPrediction" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Use New Interpolation</label>
+                  </div></td>
+                </tr>
+              </table>
+              <div class="optionsHeader">More Links</div>
+              <center>
+                <a tabindex="-1" href="https://codepen.io/road-to-100k/full/MPyOeQ/">Road's Custom Theme Maker</a>
+                <br>
+                <a tabindex="-1" href="https://glitch.com/edit/#!/oapp-server-template?path=README.md">Private Server Template</a>
+                &nbsp;&nbsp;&nbsp;
+                <a tabindex="-1" href="/custom-shape">Custom Shape Builder</a>
+                <br>
+                <a tabindex="-1" href="https://arras-proxy.surge.sh/">Proxy Server</a>
+                <a tabindex="-1" href="https://oapp.glitch.me/wrs">World Records</a>
+              </center>
+            </div>
+          </div>
+          <div style="position: relative; bottom: -10px;">
+            <button id="startButton" tabindex="2">Play</button>
+          </div>
+        </div>
+        <div class="startMenuHolder shrinkable">
+          <div class="changelogSelectorContainer">
+            <div class="changelogSelector" id="changelogSelector">
+              <span data-type="updates" class="active" title="All major updates">Updates</span>
+              <span data-type="events" title="Major updates involving events or gamemodes">Events &amp; Gamemodes</span>
+              <span data-type="balances" title="Every balance update, major or minor">Balance</span>
+              <span data-type="changelog" title="Every single update">Changelog</span>
+            </div>
+          </div>
+          <div id="patchNotes" class="shadowScroll updates"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JS -->
+  <script>
+  // if (navigator.serviceWorker) {
+  //   navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(registration => console.log('Service Worker Registered'))
+  // }
+  if (window !== window.top || window.location.hostname === 'www.arras.io' || (window.location.hostname.slice(-9) !== 'oapp.surge.sh/' && ['oapp.surge.sh'].indexOf(window.location.hostname) === -1)) {
+    window.addEventListener('load', () => {
+      document.write('<h1>You are on a framed version of OAPP, the original game is at <a href="https://oapp.surge.sh/">https://oapp.surge.sh/</a></h1>')
+    })
+    document.body.addEventListener('click', () => {
+      window.top.location = 'https://oapp.surge.sh/' // This is important for the client to function
+    })
+    window.top.location = 'https://oapp.surge.sh/'
+  }
+  window.onerror = function(message, source, lineno, colno, error) {
+    window.onerror = null
+    if (error) error = error.toString()
+    console.warn('The game crashed, refreshing page to recover from error')
+    if (error == null && lineno == 0 && colno == 0) return
+    var e = JSON.stringify({
+      message: message,
+      source: source,
+      lineno: lineno,
+      colno: colno,
+      error: error
+    })
+    prompt('The game may have crashed, refresh the page to recover from error. If this is a private server, make sure to check the changelog for any server updates. Error information:', e)
+  }
+  </script>
+  <script src="/bundle.js"></script>
+</body>
+</html>

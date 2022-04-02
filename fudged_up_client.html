@@ -1,0 +1,264 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <meta name="description" content="bordeaux.io is a sequel of the game arras.io with much more features!">
+      <meta name="robots" content="index, follow">
+      <meta property="og:image" content="https://bordeaux.surge.sh/Bordeaux.png">
+      <link rel="icon" type="image/png" sizes="256x256" href="https://bordeaux.surge.sh/Bordeaux.png">
+      <meta property="og:image:width" content="54">
+      <meta property="og:image:height" content="54">
+      <title>bordeaux.io</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+      <link rel="stylesheet" href="/css/main.css?1577642780518">
+      <link rel="manifest" href="/favicon/manifest.json">
+      <!--<link rel="canonical" href="https://arras.io/">--> 
+      <meta name="theme-color" content="#00ffff">
+   </head>
+   <body>
+      <div class="gameAreaWrapper">
+         <canvas id="gameCanvas" tabindex="1"></canvas>
+         <div id="respawn-banner" class="respawn-banner">
+            <div id="arras-io_728x90"></div>
+            <div id="ad-respawn-container"></div>
+         </div>
+      </div>
+      <div class="mainWrapper">
+         <div id="startMenuWrapper">
+            <div id="menuTabs" class="menuTabs">
+               <!--<span class="menuTab discord"><a href="/logout">Log out</a></span> <span class="menuTab stat"><a href="/stats">View stats</a></span>--> <!--<span class="menuTab discord"><a href="/login">Log in via Discord</a></span>--> 
+            </div>
+            <div class="startMenu">
+               <div class="startMenuHolder mainHolder">
+                  <div class="sliderHolder">
+                     <div class="slider startMenuSlidingContent">
+                        <center><img src="https://bordeaux.surge.sh/Bordeaux.png" class="icon" alt="arras icon"></center>
+                        <h1 id="title">bordeaux.io</h1>
+                        <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of" id="playerNameInput" maxlength="24"> <input type="password" style="display:block" autofocus tabindex="1" spellcheck="false" placeholder="Enter your token" id="playerKeyInput" maxlength="128"> 
+                     </div>
+                     <div class="slider" id="startMenuSlidingTrigger">
+                        <h3> <span id="viewOptionText">view options</span>&nbsp;&nbsp;<i class="arrow" id="optionArrow" style="transform:rotate(-45deg);-webkit-transform:rotate(-45deg)"></i> </h3>
+                     </div>
+                     <div class="slider startMenuSlidingContent">
+                        <div class="controlTable optionsHeader">Advanced Controls <i id="resetControls" class="reset resetControls" title="Reset controls"></i><i id="moreControls" class="moreControls cross" title="More controls"></i></div>
+                        <table class="controlTable" id="controlTable">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_AUTO_FIRE">E</b><span> - </span>auto-fire</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_AUTO_SPIN">C</b><span> - </span>auto-spin</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_OVER_RIDE" data-help="KEY_OVER_RIDE">R</b><span> - </span>disable AI</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_LEVEL_UP" data-help="KEY_LEVEL_UP">N</b><span> - </span>level up</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_REVERSE_TANK">V</b><span> - </span>reverse tank</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_REVERSE_MOUSE">B</b><span> - </span>reverse mouse</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <div><b data-key="KEY_SCREENSHOT">Q</b><span> - </span>screenshot</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_UPGRADE_MAX">M</b><span> - </span>maximize stat</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CLASS_TREE">T</b><span> - </span>show class tree</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_RECORD">Z</b><span> - </span>record video</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_UP">W</b><span> - </span>move up</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_PING">L</b><span> - </span>show latency</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_LEFT">A</b><span> - </span>move left</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_DOWN">S</b><span> - </span>move down</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_RIGHT">D</b><span> - </span>move right</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_1" data-help="KEY_CHOOSE_1">Y</b><span> - </span>upgrade 1</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_2" data-help="KEY_CHOOSE_2">U</b><span> - </span>upgrade 2</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_3" data-help="KEY_CHOOSE_3">I</b><span> - </span>upgrade 3</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_4" data-help="KEY_CHOOSE_4">H</b><span> - </span>upgrade 4</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_5" data-help="KEY_CHOOSE_5">J</b><span> - </span>upgrade 5</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_6" data-help="KEY_CHOOSE_6">K</b><span> - </span>upgrade 6</div>
+                                 </td>
+                              </tr>
+                              <tr class="hidden">
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_7" data-help="KEY_CHOOSE_7"></b><span> - </span>upgrade 7</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_8" data-help="KEY_CHOOSE_8"></b><span> - </span>upgrade 8</div>
+                                 </td>
+                                 <td>
+                                    <div><b data-key="KEY_CHOOSE_9" data-help="KEY_CHOOSE_9"></b><span> - </span>upgrade 9</div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <div class="optionsHeader">Themes & Graphics</div>
+                        <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
+                           <option value="normal">Light Colors</option>
+                           <option value="dark">Dark Colors</option>
+                           <option value="natural">Natural</option>
+                           <option value="obstar">Obstar</option>
+                           <option value="dexamenes">Dexamenes</option>
+                           <option value="oldmaxtri">Old Maxtri</option>
+                           <option value="classic">Classic</option>
+                           <option value="pumpkin">Pumpkin Skeleton (Fan-made)</option>
+                           <option value="forest">Forest (Fan-made)</option>
+                           <option value="midnight">Midnight (Fan-made)</option>
+                           <option value="pastel">Snow (Fan-made)</option>
+                           <option value="bordeaux">Snow 2</option>
+                           <option value="ocean">Coral Reef (Fan-made)</option>
+                           <option value="badlands">Badlands (Fan-made)</option>
+                           <option value="bleach">Bleach (Fan-made)</option>
+                           <option value="custom">Custom</option>
+                        </select>
+                        <select id="optMobile" tabindex="-1">
+                           <option value="joysticks">Joysticks</option>
+                           <option value="desktop">Desktop</option>
+                        </select>
+                        <select id="optBorders" tabindex="-1">
+                           <option value="normal">Soft Borders</option>
+                           <option value="dark">Dark Borders</option>
+                           <option value="neon">Neon Mode</option>
+                           <option value="glass">Glass Mode</option>
+                        </select>
+                        <input id="optCustom" style="display: none;" placeholder="Enter your theme code here"> 
+                        <div style="height:5px;"></div>
+                        <div class="shadowScroll" style="height:125px">
+                        <table>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optScreenshotMode" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Screenshot Mode</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optNoPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Classic Traps</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optFancy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Low Graphics</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optPredictive" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Disable Hyperactivity</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optDiep" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Diep Style</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Edges</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optPointyText" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Text</label> </div>
+                              </td>
+                              <!--<td><div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div></td>--> 
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div> <label class="container"><input id="optArrasStyle" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Arras UI</label> </div>
+                              </td>
+                              <td>
+                                 <div> <label class="container"><input id="optArrasNight" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Arras Night</label> </div>
+                              </td>
+                              <!--<td><div> <label class="container"><input id="optShadows" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Shadows</label> </div></td>--> 
+                           </tr>
+                           <tr>
+                             <td>
+                                 <div> <label class="container"><input id="optDisablePets" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Disable Pets</label> </div>
+                              </td>
+                             <td>
+                                 <div> <label class="container"><input id="optBetaArras" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Beta Arras</label> </div>
+                              </td>
+                           </tr>
+                        </table>
+                        <div class="optionsHeader">Choose Your Colored Name! (New)</div>
+                          <select id="optNameColor" tabindex="-1" style="width: 100%;">
+                           <option value="-1">Custom</option>
+                           <option value="0">None</option>
+                           <option value="1">Blue</option>
+                           <option value="2">Grey</option>
+                           <option value="3">Red</option>
+                           <option value="4">Green</option>
+                           <option value="5">Yellow</option>
+                           <option value="6">Purple</option>
+                        </select>
+                          <div class="optionsHeader">NOTE: Use custom if you want to use your own namecolor.</div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="startButtonHolder"> <button id="startButton" tabindex="2">Play</button> </div>
+               </div>
+               <div class="startMenuHolder" style="left: 10px">
+                  <div class="optionsHeader">Servers</div>
+                  <div class="serverSelector shadowScroll">
+                     <table>
+                        <tbody id="serverSelector"></tbody>
+                     </table>
+                  </div>
+                  <div class="optionsHeader">Changelog</div>
+                  <!-- changelog start --> 
+                  <div id="patchNotes" class="shadowScroll updates">
+                     <b style="color:red">HAHAHAHHAH APRIL FOOLS</b>
+                     <hr>
+                     <ul>
+                        <li>Destroyed <b> THE CLIENT </b> using html</li>
+                    </ul>
+                  </div>
+                  <!-- changelog end --> 
+                  <div class="optionsHeader">Other</div>
+                  <div class="bottomHolder" style="width:1000px;"> <a style="background:#00b2e1" href="https://maxtri.netlify.app">Maxtri.io</a> <a style="background:linear-gradient(to bottom, blue, white)" href="http://dexamenes.surge.sh/play">Dexamenes.io</a> <a style="background:#7289da" href="https://discord.gg/zgmFgXJAg2">Discord</a> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script> window.uiSize = 1; </script> <script src="//code.jquery.com/jquery-2.2.0.min.js"></script> <script src="js/app.js"></script>
+   </body>
+</html>

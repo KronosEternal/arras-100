@@ -1,36 +1,19 @@
-# Actual Client Updates
-- addded links to the top of the page
-- New event voting tab, but there aren't any yet
-- reverted some changes to sanctuaries, bosses, and laaag
-# More mayhem
-- sanctuaries have been changed to theia celestials
-- god mode disabled
-- tokens disabled, but not tags
-- boss spawning
-- mini arena closers can spawn
-- lots and lots of lag and chaos
-- earlier end event date of April 3rd
-# A P R I L  F O O L S
-- disabled tokens for god mode and testbed temporarily
-- try using testbed, you will crash your game lel
-- sanctuaries can move and attack
-- BOSSES
-- more doom
-- fun
-- happy april fools
-- this will last until April 5th
-# New challenges are on the way!
-- 3 mini-bosses in development
-- 1 boss in development
-- 1 final boss in development
-# Siege Updates
-- token has changed (again again)
-- finally protected the token from CTRL + U
-- Github secrets!
-- Public Repo!
-# Git Commits!
-- if you find a bug, please report it by clicking the "Bug Report" button above!
-# Client Deploy Changes
+# Client updates
+- amount of available themes increased from 6 to 14
+- theme and background has changed
+- working on changes for spawn bypass token (which will also be obfuscated)
+# That took some time
+- i have finally hidden the dev token by adding to a .env file
+# More Updates
+- now i FIXED the actual commands and stuff linked to token
+- linked token to an .env variable
+# What am I doing?
+- mainly client updates and functions
+- unfortunatly, due to js errors and such, the
+update for april fools may not be there until sunday
+- client color overhaul!
+- improved colors!
+# Client Updates
 - added github actions
 - auto-deploy means that changelog will be updated much more frequently (yay)
 # Bug Fixes
@@ -50,6 +33,6 @@
 - /questionable is now accessable by all players
 - Changed Token, but don't worry, a new public beta tester one will come soon!
 - new /test command! (dev only)
-# Will I update this... Probably not (yes he will)
+# Will I update this... Probably not (Irony)
 - however, there will be an update for april fools lasting until april 7th
 - Yes, it will be unfair, what did you think?
