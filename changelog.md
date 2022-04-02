@@ -1,3 +1,7 @@
+# Actual Client Updates
+- addded links to the top of the page
+- New event voting tab, but there aren't any yet
+- reverted some changes to sanctuaries, bosses, and laaag
 # More mayhem
 - sanctuaries have been changed to theia celestials
 - god mode disabled
