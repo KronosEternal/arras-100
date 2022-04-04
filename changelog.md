@@ -1,4 +1,10 @@
-# just a friendly reminder, READ the changelog :)
+# DEV EVENT!
+
+- the dev event has officially started!
+- now you spawn as a testbed, and ALL commands, i mean ALL of them are available, no token required
+- the event ends on April 18th
+- every one spawns with the [EVENT] tag next to their name
+- the event will end earlier if the "No" option on the voting ever surpasses the yes amount of votes
 
 # Voting Updates
 
