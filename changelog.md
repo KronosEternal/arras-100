@@ -1,3 +1,13 @@
+# Voting Updates
+
+- as of now, the votes are tied with 1 vote at eah category
+- remember to vote using the "voting events" tab at the top of the screen
+- added this so nerds know that i did make this game
+- how dare you doubt my powers
+- anyways VOTE nerds
+- also working on making the vote events tab glow when the voting event is active
+- i will close it on April 8th
+
 # Siege Updates
 
 - changed burning ring of fires name to meteor
