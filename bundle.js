@@ -4679,22 +4679,13 @@
               { id: "d", to: "Domination" },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
+              { id: "a", to: "Event" },
               { id: "m", to: "Mothership", remove: "2" },
-              { id: "a", to: "Assault", remove: "2" }
             ]
           ]
         ],
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
-          {
-            visible: 0,
-            id: "Glitch",
-            type: "beta",
-            code: "glitch-worldwide-s",
-            at: p.glitch("arrasiosiege"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
           {
             visible: 0,
             id: "Heroku",
@@ -4706,21 +4697,12 @@
           },
           {
             visible: 0,
-            id: "Glitch",
-            type: "beta",
-            code: "glitch-virginia-4",
-            at: p.heroku("doublediep"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "Heroku",
             type: "beta",
-            code: "heroku-worldwide-4",
+            code: "heroku-worldwide-a",
             at: p.heroku("doublediep"),
             prefer: !0,
-            featured: 0 // For Featured Status.
+            featured: 1 // For Featured Status.
           },
             ]
           .map((a, e) => ({ data: a, i: e }))
