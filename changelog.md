@@ -1,3 +1,5 @@
+# just a friendly reminder, READ the changelog :)
+
 # Voting Updates
 
 - as of now, the votes are tied with 1 vote at eah category
