@@ -1,5 +1,4 @@
 # just a friendly reminder, READ the changelog :)
-# hello world
 
 # Voting Updates
 
