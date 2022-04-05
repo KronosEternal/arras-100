@@ -1,6 +1,3 @@
-# baa
-
-- s
 
 # Voting
 

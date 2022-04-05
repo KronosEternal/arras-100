@@ -424,7 +424,7 @@
           case "dom1":
           case "dbc1":
           case "mbc1":
-            return l.yellow;
+            return l.blue;
           case "bas2":
           case "bap2":
           case "dom2":
