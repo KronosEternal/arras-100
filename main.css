@@ -564,7 +564,8 @@ body.mobile .icon {
   margin: 0;
 }
 #votenubs {
-text-shadow: #c7289f 0 0 10px;
+  color: #1cbfff;
+  text-shadow: /*#ffe500 0 0 4px,*/ #1be0d0 0 0 7px;
 }
 #startButton {
   margin: 0;
