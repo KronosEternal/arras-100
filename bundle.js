@@ -4680,6 +4680,7 @@
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
+              { id: "sad", to: "Coming Soon" },
               { id: "m", to: "Mothership", remove: "2" },
             ]
           ]
@@ -4699,7 +4700,7 @@
             visible: 0,
             id: "Heroku-coming_soon",
             type: "beta",
-            code: "heroku-worldwide-a",
+            code: "heroku-worldwide-sad",
             at: p.heroku("sadasdasdasdsadsadsdasd"),
             prefer: !0,
             featured: 0 // For Featured Status.
