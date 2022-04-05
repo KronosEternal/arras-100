@@ -1,3 +1,13 @@
+# Client Updates
+
+- minor color updates
+- few changes with server selector behavior
+- any event servers will be highlighted in blue
+- added a link to submit YOUR tank ideas!
+- after i choose a few that I like, we will hold a voting event to find out which ones get into the actual siege server!
+- use the "feature request" tab to get the link to the google doc!
+- then submit your design idea using google drawings!
+
 # DEV EVENT!
 
 - the dev event has officially started!
