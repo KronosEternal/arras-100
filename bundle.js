@@ -4688,7 +4688,7 @@
         servers: [
           {
             visible: 0,
-            id: "Heroku",
+            id: "Heroku-Siege",
             type: "beta",
             code: "heroku-worldwide-s",
             at: p.heroku("arrasiege"),
@@ -4697,10 +4697,19 @@
           },
           {
             visible: 0,
-            id: "Heroku",
+            id: "Heroku-coming_soon",
             type: "beta",
             code: "heroku-worldwide-a",
-            at: p.heroku("doublediep"),
+            at: p.heroku("sadasdasdasdsadsadsdasd"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Heroku-Event",
+            type: "beta",
+            code: "heroku-worldwide-a",
+            at: p.heroku("devevent2"),
             prefer: !0,
             featured: 1 // For Featured Status.
           },
