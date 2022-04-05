@@ -1900,7 +1900,7 @@
         var inputVal = document.getElementById("playerNameInput").value;
         if (inputVal === "")
           return (
-            inputVal = "player who choose not to be named";
+            inputVal = "player who choose not to be named"
           );
         PlaySound210();
         t();
