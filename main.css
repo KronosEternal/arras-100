@@ -120,7 +120,7 @@ h3 {
 }
 .serverSelector tr.featured {
   color: #1cbfff;
-  text-shadow: /*#ffe500 0 0 4px,*/ #fff27e 0 0 6px;
+  text-shadow: /*#ffe500 0 0 4px,*/ #1be0d0 0 0 7px;
 }
 .serverSelector tr.selected {
   color: #25c29b;
