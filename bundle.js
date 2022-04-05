@@ -443,10 +443,7 @@
           case "dbc4":
           case "mbc4":
             return l.pink;
-          case "domx":
-          case "dom0":
-          case "dbc0":
-          case "mbc0":
+          case "bas6":
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
