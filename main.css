@@ -563,7 +563,9 @@ body.mobile .icon {
 #patchNotes.balances .patch hr {
   margin: 0;
 }
-
+#votenubs {
+  margin: 23;
+}
 #startButton {
   margin: 0;
   width: 100%;
