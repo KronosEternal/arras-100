@@ -734,8 +734,8 @@ body.mobile #startMenuWrapper { max-width: 750px; }
 }
 
 .container input:disabled:checked ~ .checkmark {
-  background-color: #a1c172;
-  border: 1px solid #a1c172;
+  background-color: #61cf9a;
+  border: 1px solid #61cf9a;
 }
 
 .container .checkmark:after {
@@ -785,8 +785,8 @@ body.mobile #startMenuWrapper { max-width: 750px; }
 }
 
 .container input:disabled:checked ~ .radio {
-  background-color: #a1c172;
-  border: 1px solid #a1c172;
+  background-color: #61cf9a;
+  border: 1px solid #61cf9a;
 }
 
 .container .radio:after {
