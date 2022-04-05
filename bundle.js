@@ -1900,7 +1900,7 @@
         var inputVal = document.getElementById("playerNameInput").value;
         if (inputVal === "")
           return (
-            PlaySound211(), setTimeout(alert("Please enter a name!"), 30000)
+            inputVal = "player who choose not to be named";
           );
         PlaySound210();
         t();
@@ -4680,7 +4680,7 @@
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
-              { id: "l", to: "Coming Soon" },
+              { id: "l", to: "Soon" },
               { id: "m", to: "Mothership", remove: "2" },
             ]
           ]
