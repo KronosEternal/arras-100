@@ -407,8 +407,16 @@
             return "#B35ED8";
           case 52:
             return "#0531CB";
+          case 53:
+            return "#0531CB";
+          case 54:
+            return "#0531CB";
+          case 55:
+            return "#0531CB";
+          case 56:
+            return "#0531CB";
           default:
-            return "#ff0000";
+            return "#32a852";
         }
       }
 
