@@ -1,3 +1,8 @@
+# Dev Event
+
+- please remember to clear the token field so you can get the full extent of powers!
+- 12 days left until Dev event ends!
+
 # Siege Updates
 
 - /team command has been changed to /team (number)
@@ -15,12 +20,11 @@
 
 - /define command added (dev only)
 
-- soon these changes will be added to the Dev event!
+- These Changes also apply to the dev event!
 
 - new color command added which is /color (colorcode)
 - valid color codes = 0-52
 - you guys gonna vote?
-- 12 days left until Dev event ends!
 
 # Voting
 
