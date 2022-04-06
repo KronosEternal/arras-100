@@ -13,6 +13,9 @@
 
 - -100 (polygon)
 
+- /define command added (dev only)
+
+- soon these changes will be added to the Dev event!
 
 - new color command added which is /color (colorcode)
 - valid color codes = 0-52
