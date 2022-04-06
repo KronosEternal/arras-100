@@ -1,9 +1,23 @@
 # Siege Updates
 
 - /team command has been changed to /team (number)
-- valid team codes = 1(blue) 2(green) 3(red) 4(purple) 100(polygon)
+- valid team codes= 
+
+- -1 (blue) 
+
+- -2 (green)
+
+- -3 (red) 
+
+- -4 (purple)
+
+- -100 (polygon)
+
+
 - new color command added which is /color (colorcode)
 - valid color codes = 0-52
+- you guys gonna vote?
+- 12 days left until Dev event ends!
 
 # Voting
 
