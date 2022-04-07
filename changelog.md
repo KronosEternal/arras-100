@@ -1,4 +1,13 @@
 # Remember To Vote!
+
+# Client Updates
+
+- changed checkboxes to reflect the new color scheme of the client
+- added my own logo created fully using Adobe Illustrator
+- changed some fundamental functions under the hood to make loading faster and with less errors
+- enjoy!
+- btw, if no one votes in the next 5 days, voting will close and the 4TDM gamemode will be added!
+
 # Dev Event
 
 - please remember to clear the token field so you can get the full extent of powers!
