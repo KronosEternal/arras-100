@@ -729,8 +729,8 @@ body.mobile #startMenuWrapper { max-width: 750px; }
 }
 
 .container:hover input:checked ~ .checkmark {
-  background-color: #7FA843;
-  border: 1px solid #7FA843;
+  background-color: #43a85c;
+  border: 1px solid #43a85c;
 }
 
 .container input:disabled:checked ~ .checkmark {
@@ -780,8 +780,8 @@ body.mobile #startMenuWrapper { max-width: 750px; }
 }
 
 .container:hover input:checked ~ .radio {
-  background-color: #7FA843;
-  border: 1px solid #7FA843;
+  background-color: #43a85c;
+  border: 1px solid #43a85c;
 }
 
 .container input:disabled:checked ~ .radio {
