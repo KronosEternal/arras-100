@@ -3,6 +3,7 @@
 The offical client for the arras.io siege remake
 
 ![Arras.io logo](bordeaux.surge.sh/Bordeaux.png)
+https://ibb.co/XbyL3hL
 
 # Features
 
