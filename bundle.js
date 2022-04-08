@@ -414,7 +414,17 @@
           case 55:
             return "#0531CB";
           case 56:
-            return "#0531CB";
+            return T(
+              [
+                "#21d159",
+                "#21d199",
+              ][Math.floor((Date.now() / 400) % 2)],
+              [
+                "#21d199",
+                "#21d159"
+              ][Math.floor((Date.now() / 400) % 2)],
+              (Date.now() / 400) % 1
+            );
           default:
             return "#32a852";
         }
