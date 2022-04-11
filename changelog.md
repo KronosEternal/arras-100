@@ -1,4 +1,12 @@
-# Remember To Vote!
+# Updates
+
+- so flail is screwed over currently
+- working on fixes
+- working on bug fixes
+- Changed logo (again again)
+- adding 4TDM
+- currently in beta and only accessible by the actual devs
+- may remove event server since no one uses it
 
 # Client Updates
 
