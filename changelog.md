@@ -1,3 +1,9 @@
+# Ethans Description
+
+- FUCKING GAY
+- BITCH
+- LIKES BANNANA UP HIS ASS
+
 # Updates
 
 - so flail is screwed over currently
