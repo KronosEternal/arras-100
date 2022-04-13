@@ -1,3 +1,9 @@
+# Hey guys guess what?
+
+- discord link now works!
+- somehow it unblocks Discord!
+- join today
+
 # Updates
 
 - so flail is screwed over currently
