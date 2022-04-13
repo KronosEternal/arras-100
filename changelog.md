@@ -1,6 +1,5 @@
 # Updates
 
-- Carter may become part of the dev team
 - so flail is screwed over currently
 - working on fixes
 - working on bug fixes
