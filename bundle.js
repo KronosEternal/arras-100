@@ -4713,10 +4713,10 @@
           },
           {
             visible: 0,
-            id: "Heroku-coming_soon",
+            id: "Heroku-4TDM",
             type: "beta",
-            code: "heroku-worldwide-l",
-            at: p.heroku("sadasdasdasdsadsadsdasd"),
+            code: "heroku-worldwide-4",
+            at: p.heroku("tdm4"),
             prefer: !0,
             featured: 0 // For Featured Status.
           },
