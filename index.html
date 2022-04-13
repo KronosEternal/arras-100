@@ -62,6 +62,15 @@ function PlaySound() {
     click.play();
 }
 </script>
+    <style>
+      .multicolortext {
+        background-image: linear-gradient(to left, #129B79, #34129B);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+    </style>
       <audio id ="bflat" src="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg"></audio>
     <!-- Main Code-->
    <div id="gameAreaWrapper">
@@ -77,7 +86,9 @@ function PlaySound() {
       </div>
       <div id="startMenu">
           <div id="bottomHolder">
-            <a id="votenubs" style="background:#2abd89" href="https://docs.google.com/forms/d/e/1FAIpQLSeI7NSRTAp3f7UW5UryxAC4ntZ0X59U_7UkvqIpnSkG43vo8g/viewform">Voting Events</a>
+            <a style="background:#2abd89" href="https://docs.google.com/forms/d/e/1FAIpQLSeI7NSRTAp3f7UW5UryxAC4ntZ0X59U_7UkvqIpnSkG43vo8g/viewform">
+            <span class="multicolortext"> Voting Events </span>
+            </a>
                  <a style="background:#35e8a9" onclick="PlaySound()" onmouseover="PlaySound1()" title="A custom theme creator" href="https://codepen.io/road-to-100k/full/GRpvMzb" target="_blank" rel="noopener noreferrer">Theme Creator</a>
                  <a style="background:#2abd89" onclick="PlaySound()" onmouseover="PlaySound1()" href="https://docs.google.com/document/d/1ArUnUkEG0zdcUkBnB0E6vk-A0aQpPgHfwhpcWH9zlcE/edit?usp=sharing" title="Send Me your Ideas!" target="_blank" rel="noopener noreferrer">Feature Request</a>
           </div>

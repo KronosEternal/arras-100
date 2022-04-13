@@ -1,4 +1,8 @@
-# Hey guys guess what?
+# Updates
+
+- carter has joined the dev team!
+
+# guess what?
 
 - discord link now works!
 - somehow it unblocks Discord!
