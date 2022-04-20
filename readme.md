@@ -2,7 +2,7 @@
 
 The offical client for the arras.io siege remake
 
-![Arras.io logo](https://user-images.githubusercontent.com/99846877/162814159-a4d0ed92-9b11-4b29-8c6a-8bfc21cd309e.png)
+![Arras.io logo](https://user-images.githubusercontent.com/99846877/164053744-57e8d283-b0f3-4c9a-897b-3f5f11c2298a.png)
 
 # Features
 
@@ -40,3 +40,4 @@ The client can be found at the following links:
   <https://glitch.com/~imp-template2>
 - Seaguli
 - CX and the various developers of arras.io
+- various people on Glitch Support (＾□＾*)
