@@ -1,6 +1,11 @@
 # Oh SHi
 
-- 4TDM fell from a high place
+- 4TDM fell out of the world
+- so yeah... Heroku is dead, and we hard crashed the server...
+- oops
+- it might come back on its own though, as heroku auto-resets projects based on their exsisting code database every 50 minutes
+so maybe we aren't screwed
+- if not.. F$%#
 
 # Updates
 
