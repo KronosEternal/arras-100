@@ -1,18 +1,17 @@
+# sorry for misinformation
+
+- this changelog along with the client is launched using Git action/Git hooks for CI (continous integration)
+- this has absoloutly nothing to do with heroku as it is published using a "runner" who runs cmd commands on windows powershell to deploy the app to surge
+- so yeah, if this goes through, it doesn't mean heroku is back
+- while on this topic, heroku released a notification saying hopefully Oauth tokens for github will be back on monday, but in the meanwhile, I have deployed to vercel and servers will recieve updates! (listed below heroku servers)
+- also vercel has (slightly) less resources so lag may be more prominent on the server
+
 # Hi
 
 - Hey this is carter
 - So this update really is not gonna accomplish anything but i just wanted to see how this works
 - Ok bye hopefully i dont get kicked off the team for this
 - Also once this message goes through that means that means that heroku will be back up and running
-
-# Oh SHi
-
-- 4TDM fell out of the world
-- so yeah... Heroku is dead, and we hard crashed the server...
-- oops
-- it might come back on its own though, as heroku auto-resets projects based on their exsisting code database every 50 minutes
-so maybe we aren't screwed
-- if not.. F$%#
 
 # Updates
 
