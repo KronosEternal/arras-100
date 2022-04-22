@@ -1,3 +1,10 @@
+# Hi
+
+- Hey this is carter
+- So this update really is not gonna accomplish anything but i just wanted to see how this works
+- Ok bye hopefully i dont get kicked off the team for this
+- Also once this message goes through that means that means that heroku will be back up and running
+
 # Oh SHi
 
 - 4TDM fell out of the world
