@@ -1,3 +1,4 @@
+# Vercel Not Working (for now)
 # sorry for misinformation
 
 - this changelog along with the client is launched using Git action/Git hooks for CI (continous integration)
