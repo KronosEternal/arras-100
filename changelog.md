@@ -1,11 +1,9 @@
-# Vercel Not Working (for now)
 # sorry for misinformation
 
 - this changelog along with the client is launched using Git action/Git hooks for CI (continous integration)
 - this has absoloutly nothing to do with heroku as it is published using a "runner" who runs cmd commands on windows powershell to deploy the app to surge
 - so yeah, if this goes through, it doesn't mean heroku is back
-- while on this topic, heroku released a notification saying hopefully Oauth tokens for github will be back on monday, but in the meanwhile, I have deployed to vercel and servers will recieve updates! (listed below heroku servers)
-- also vercel has (slightly) less resources so lag may be more prominent on the server
+- while on this topic, heroku released a notification saying hopefully Oauth tokens for github will be back on sunday (next week)
 
 # Hi
 
