@@ -1,3 +1,8 @@
+# ETHAN IS GAY PROOF
+ - HE DEEP THROUGHTS BANNANAS
+ - HE LOOKS GAY
+ - THATS GAY BRO
+
 # sorry for misinformation
 
 - this changelog along with the client is launched using Git action/Git hooks for CI (continous integration)
