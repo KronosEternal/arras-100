@@ -1,7 +1,25 @@
-# ETHAN IS GAY PROOF
- - HE DEEP THROUGHTS BANNANAS
- - HE LOOKS GAY
- - THATS GAY BRO
+# Nigeria
+
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- nigeria
+- AFRICA
 
 # sorry for misinformation
 
