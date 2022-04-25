@@ -1,25 +1,28 @@
-# Nigeria
+# Reasons Why Nigeria
 
 - nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- nigeria
-- AFRICA
+- racism
+- sus
+- most
+- africa
+- black
+- racial slurs
+- slavery
+- no rights
+- Death
+
+# Top 10 reasons Johnathon is gay
+
+- 10, he looks gay
+- 9, looking gay is gay
+- 8, i called him gay
+- 7, being called gay is kinda gay
+- 6, he eats soup for a school lunch. what the hell is up with that?
+- 5, he uses a SPORK for SOUP
+- 4, A FUCKING SPORK
+- 3, WHY A SPORK
+- 2, he deep throats bannanas
+- 1, he is just gay bro
 
 # sorry for misinformation
 
