@@ -1,3 +1,4 @@
+
 # Updates
 
 - Video Games
@@ -208,3 +209,8 @@
 
 - however, there will be an update for april fools lasting until april 7th
 - Yes, it will be unfair, what did you think?
+
+# Wow
+
+wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - carter
+- also how about touching some grass and getting some bitches? - The dev

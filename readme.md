@@ -1,6 +1,6 @@
 # Arras.io reimagined
 
-The offical client for the arras.io siege remake
+The offical client for the arras.io siege remake 
 
 ![Arras.io logo](https://user-images.githubusercontent.com/99846877/164053744-57e8d283-b0f3-4c9a-897b-3f5f11c2298a.png)
 
