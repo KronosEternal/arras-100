@@ -1,4 +1,8 @@
 
+# Secret
+
+- there is a secret in the changelogs see if you can find it - carter
+
 # Updates
 
 - Video Games
