@@ -212,5 +212,6 @@
 
 # Wow
 
-wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - carter
-- also how about touching some grass and getting some bitches? - The dev
+- wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - carter
+- also how about touching some grass and getting some bitches? - ethan
+- I am gay - Johnathan
