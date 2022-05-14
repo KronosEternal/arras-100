@@ -1,16 +1,14 @@
 # Arras.io reimagined
 
-The offical client for the arras.io siege remake 
-
 ![Arras.io logo](https://user-images.githubusercontent.com/99846877/164053744-57e8d283-b0f3-4c9a-897b-3f5f11c2298a.png)
 
 # Features
 
-- Sound effects!
-- Music!
-- Lightweight, separate client!
-- More colours!
-- Server Selector!
+- Moaning!
+- Cock and ball torture!
+- Server speeds so laggy that it looks like your playing on a power point!
+- More white colors on the screen that looks lime cum!
+- No!
 - More themes!
 - Fixed hotkeys! (Be sure your server project has them binded)
 - Deployment to Repl.it or Heroku! Still works with Glitch!
