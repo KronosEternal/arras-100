@@ -4693,6 +4693,7 @@
             ],
             [
               { id: "d", to: "Domination" },
+              { id: "t", to: "DEV SERVER" },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
@@ -4729,6 +4730,24 @@
             at: p.heroku("devevent2"),
             prefer: !0,
             featured: 1 // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Glitch-DEV",
+            type: "beta",
+            code: "heroku-worldwide-t",
+            at: p.glitch("arrasiosiege"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+                    {
+            visible: 0,
+            id: "Glitch-DEV2",
+            type: "beta",
+            code: "heroku-worldwide-t",
+            at: p.glitch("4tdmsd"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
           },
             ]
           .map((a, e) => ({ data: a, i: e }))
