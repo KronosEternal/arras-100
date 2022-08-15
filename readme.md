@@ -4,12 +4,11 @@
 
 # Features
 
-- Moaning!
-- Cock and ball torture!
 - Server speeds so laggy that it looks like your playing on a power point!
-- More white colors on the screen that looks lime cum!
-- No!
 - More themes!
+- Death!
+- Dev Abuse!
+- random boss things!
 - Fixed hotkeys! (Be sure your server project has them binded)
 - Deployment to Repl.it or Heroku! Still works with Glitch!
 - Webserver compatibility with 6 different languages!
@@ -22,9 +21,9 @@ Additonal code is available on my Github project's page, <https://github.com/sea
 
 Feel free to remix this project and modify it to your own liking! You aren't required to credit me, but I would like it :D
 
-<sub><sup>
-ask me if you want any aspect of the server's code at (SF) Seagull#2224
-</sub></sup>
+
+ask him if you want any aspect of the server's code at (SF) Seagull#2224
+ask me for aspects I added at Nyx_The_Celestial @KronosEternal
 
 # Domains
 
