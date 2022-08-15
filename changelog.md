@@ -1,3 +1,9 @@
+# Added DEV SERVERS
+
+- servers eclusivly for devs in order for testing purposes
+- You CAN join, but it will be laggy, crappy, and unstable because of the stuff we, Carter, Johnathon, Ethan, are doing
+- Also Random Crap WILL happen, on said servers
+- This way we won't fudge up the actual servers
 
 # Secret
 
