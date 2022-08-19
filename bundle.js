@@ -4724,21 +4724,12 @@
           },
           {
             visible: 0,
-            id: "Heroku-Event",
-            type: "beta",
-            code: "heroku-worldwide-a",
-            at: p.heroku("devevent2"),
-            prefer: !0,
-            featured: 1 // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "Glitch-DEV",
             type: "beta",
             code: "heroku-worldwide-t",
             at: p.glitch("arrasiosiege"),
             prefer: !0,
-            featured: 0 // For Featured Status.
+            featured: 1 // For Featured Status.
           },
                     {
             visible: 0,
@@ -4747,7 +4738,7 @@
             code: "heroku-worldwide-t",
             at: p.glitch("4tdmsd"),
             prefer: !0,
-            featured: 0 // For Featured Status.
+            featured: 1 // For Featured Status.
           },
             ]
           .map((a, e) => ({ data: a, i: e }))
