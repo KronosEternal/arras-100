@@ -1,3 +1,8 @@
+# Hello New Players!
+
+- proof that Ethan made this game
+- So hello!
+
 # Did something
 
 - I made one change
