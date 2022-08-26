@@ -3,6 +3,8 @@
 - proof that Ethan made this game
 - So hello!
 
+- Join for: Dev stuff, random things, lag, almighty unfair tanks, lack of balancing, no real purpose, time killing, another way of dying, etc, etc
+
 # Did something
 
 - I made one change
