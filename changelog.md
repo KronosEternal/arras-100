@@ -239,6 +239,6 @@
 # Wow
 
 - wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - carter
-- also how about touching some grass? - ethan
-- I am gay - Samantha
+- also how about touching some grass(Not that I know what it is)? - Ethan
+- I don't touch grass - Samantha
 - I DONT GET SLEEP PLEASE HELP ME GOD WHYYYYYYYYYYY - Johnathan
