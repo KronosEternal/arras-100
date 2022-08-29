@@ -1,7 +1,7 @@
-# New Voting Event Soon!
+# New Voting Event!
 
 - Look at the title
-- Will decide whether I teach on a 2TDM server, or a custom server designed by you!
+- Will decide whether I teach on a 2TDM server, 4TDM, Open, or a custom server designed by you!
 - Click Voting Events Tab to vote!
 
 # Hello New Players!
@@ -10,13 +10,9 @@
 - So hello!
 - Join for: Dev stuff, random things, lag, almighty unfair tanks, lack of balancing, no real purpose, time killing, another way of dying, etc, etc
 
-# Did something
-
-- I made one change
-
 # changed background
 
-- changed background to MSFS2020 A320 Neo
+- changed background to MSFS A320 Neo
 
 # Added DEV SERVERS
 
