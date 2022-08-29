@@ -3,6 +3,7 @@
 - Look at the title
 - Will decide whether I teach on a 2TDM server, 4TDM, Open, or a custom server designed by you!
 - Click Voting Events Tab to vote!
+- New Background Colors may come soon!
 
 # Hello New Players!
 
