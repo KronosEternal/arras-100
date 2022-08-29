@@ -1,6 +1,12 @@
+# New Voting Event Soon!
+
+- Look at the title
+- Will decide whether I teach on a 2TDM server, or a custom server designed by you!
+- Click Voting Events Tab to vote!
+
 # Hello New Players!
 
-- proof that Ethan Fernandes (Mr. Britsh Idiot) made this game, with help from Johnathan, Steven, Carter, and members of the glitch community :)
+- proof that Ethan made this game, with help from Johnathan, Steven, Carter, and members of the glitch community :)
 - So hello!
 - Join for: Dev stuff, random things, lag, almighty unfair tanks, lack of balancing, no real purpose, time killing, another way of dying, etc, etc
 
