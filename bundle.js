@@ -4709,7 +4709,7 @@
             visible: 0,
             id: "Heroku-Siege",
             type: "beta",
-            code: "heroku-worldwide-s",
+            code: "heroku-frankfurt-s",
             at: p.heroku("arrasiege"),
             prefer: !0,
             featured: 0 // For Featured Status.
@@ -4718,7 +4718,7 @@
             visible: 0,
             id: "Heroku-4TDM",
             type: "beta",
-            code: "heroku-worldwide-4",
+            code: "heroku-montreal-4",
             at: p.heroku("tdm4"),
             prefer: !0,
             featured: 0 // For Featured Status.
@@ -4727,7 +4727,7 @@
             visible: 0,
             id: "Glitch-DEV",
             type: "beta",
-            code: "glitch-worldwide-t",
+            code: "glitch-la-t",
             at: p.glitch("arrasiosiege"),
             prefer: !0,
             featured: 1 // For Featured Status.
@@ -4736,7 +4736,7 @@
             visible: 0,
             id: "Glitch-DEV2",
             type: "beta",
-            code: "glitch-worldwide-t",
+            code: "glitch-singapore-t",
             at: p.glitch("4tdmsd"),
             prefer: !0,
             featured: 1 // For Featured Status.

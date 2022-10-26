@@ -1,4 +1,12 @@
+# Teaching Server Added (based on glitch)
 
+- also look at the title
+- server will be custom designed
+- simple UI changes, stability fixes (johnathan's reality looming  in the distance)
+- added server locations so they don't all just say "worldwide" which they aren't
+- All server locations are based on ping
+- some are slightly laggier than others, but all remain under 320 ms delay (320 milliseconds for those who can't read)
+- so yeah, not much, will be more soon
 # New Voting Event!
 
 - Look at the title
