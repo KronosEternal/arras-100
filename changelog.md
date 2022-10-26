@@ -1,3 +1,9 @@
+# ServerStatusThing (in progress)
+- will be used and implemented to show you which servers are dead, being fixed, or im to clueless to realize (helps this idiot *looking in mirror* fix things as well)
+- if I don't screw it up, it should also show the problem, whether by incompetent devs *stares in mirror again* or heroku being an ass (or github) so yeah, but it also
+assumes that I can code it in the first place :/
+
+
 # Teaching Server Added (based on glitch)
 
 - also look at the title
@@ -248,6 +254,6 @@
 
 # Wow
 
-- wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - Carter
-- also how about touching some grass nerd - Ethan
-- I am mega gay and i lick feet - Johnathan
+- wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - Carter - 2021
+- also how about touching some grass nerd - Ethan - 2021
+- "I will find your family, whats left of it at least" - Johnathan - 2022
