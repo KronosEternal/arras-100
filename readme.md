@@ -19,7 +19,7 @@ Additonal code is available on my Github project's page, <https://github.com/sea
 
 # Remixing
 
-Feel free to remix this project and modify it to your own liking! You aren't required to credit me, but I would like it :D
+Feel free to remix this project and modify it to your own liking! You aren't required to credit me, but I would like it :D No
 
 
 ask him if you want any aspect of the server's code at (SF) Seagull#2224
@@ -38,3 +38,5 @@ The client can be found at the following links:
 - Seaguli
 - CX and the various developers of arras.io
 - various people on Glitch Support (＾□＾*)
+- @Jbom4390 and @dontknowhowtocode
+- Modifications by @Nyx_The_Celestial

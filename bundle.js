@@ -4726,7 +4726,7 @@
             visible: 0,
             id: "Glitch-DEV",
             type: "beta",
-            code: "heroku-worldwide-t",
+            code: "glitch-worldwide-t",
             at: p.glitch("arrasiosiege"),
             prefer: !0,
             featured: 1 // For Featured Status.
@@ -4735,8 +4735,17 @@
             visible: 0,
             id: "Glitch-DEV2",
             type: "beta",
-            code: "heroku-worldwide-t",
+            code: "glitch-worldwide-t",
             at: p.glitch("4tdmsd"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          }, 
+                    {
+            visible: 0,
+            id: "Glitch-DEV2",
+            type: "beta",
+            code: "glitch-worldwide-t",
+            at: p.glitch("arrasoncrack32x"),
             prefer: !0,
             featured: 1 // For Featured Status.
           },
