@@ -4694,6 +4694,7 @@
             [
               { id: "d", to: "Domination" },
               { id: "t", to: "DEV SERVER" },
+              { id: "k", to: "THING"   },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
@@ -4742,9 +4743,9 @@
           }, 
                     {
             visible: 0,
-            id: "Glitch-DEV2",
+            id: "Glitch-TeachServer",
             type: "beta",
-            code: "glitch-worldwide-t",
+            code: "glitch-unknown-k",
             at: p.glitch("arrasoncrack32x"),
             prefer: !0,
             featured: 1 // For Featured Status.
