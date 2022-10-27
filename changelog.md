@@ -1,24 +1,31 @@
-# ServerStatusThing (in progress)
+# Large Update! Read Below
+
+# Balancing Starting Soon!
+
+# ANNOUNCMENTS:
+
+- Steven will manage "feedback" aka complaints because he is head of HR, not me
+- Carter, Steven and Me (somewhat) will be balancing things (I will mostly be coding new tanks, them balancing since they can't do much else rn)
+- Johnathan is an official server stress tester and his only job is to inflict pain in the name of science
+- The chat function DOES NOT WORK yet in the teaching server due to glitch things
+- Help menu for commands has been  fixed to be more user friendly
+
+# SERVER STATUS THING:
+
 - will be used and implemented to show you which servers are dead, being fixed, or im to clueless to realize (helps this idiot *looking in mirror* fix things as well)
 - if I don't screw it up, it should also show the problem, whether by incompetent devs *stares in mirror again* or heroku being an ass (or github) so yeah, but it also
 assumes that I can code it in the first place :/
 
+# GENERAL CHANGES:
 
-# Teaching Server Added (based on glitch)
-
-- also look at the title
-- server will be custom designed
-- simple UI changes, stability fixes (johnathan's reality looming  in the distance)
+- commands now can be accessed through the "/help" without murdering the server
+- TEACHING SERVER: server will be custom designed, has been added as the "Glitch Unknown Thing" Server, not fully ready yet, but works.
+- simple UI changes (gradient on top 3 buttons), (less crazy styles), stability fixes, reliability increased (of client, not servers yet)
 - added server locations so they don't all just say "worldwide" which they aren't
 - All server locations are based on ping
-- some are slightly laggier than others, but all remain under 320 ms delay (320 milliseconds for those who can't read)
-- so yeah, not much, will be more soon
-# New Voting Event!
-
-- Look at the title
-- Will decide whether I teach on a 2TDM server, 4TDM, Open, or a custom server designed by you!
-- Click Voting Events Tab to vote!
-- New Background Colors may come soon!
+- some are slightly laggier than others, but all remain under 220 ms delay (220 milliseconds for those who can't read)
+- Background changed again
+- commands now can be accessed through the "/help" without murdering the server
 
 # Hello New Players!
 
@@ -43,31 +50,7 @@ assumes that I can code it in the first place :/
 
 # Updates
 
-- Video Games
-
-# sorry for misinformation
-
-- this changelog along with the client is launched using Git action/Git hooks for CI (continous integration)
-- this has absoloutly nothing to do with heroku as it is published using a "runner" who runs cmd commands on windows powershell to deploy the app to surge
-- so yeah, if this goes through, it doesn't mean heroku is back
-- while on this topic, heroku released a notification saying hopefully Oauth tokens for github will be back on sunday (next week)
-
-# Hi
-
-- Hey this is carter
-- So this update really is not gonna accomplish anything but i just wanted to see how this works
-- Ok bye hopefully i dont get kicked off the team for this
-- Also once this message goes through that means that means that heroku will be back up and running
-
-# Updates
-
 - carter has joined the dev team!
-
-# guess what?
-
-- discord link now works!
-- somehow it unblocks Discord!
-- join today
 
 # Updates
 
