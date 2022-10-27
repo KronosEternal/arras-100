@@ -1,3 +1,10 @@
+# Hola
+
+- Hey its Carter here
+- Ethan wanted me to add stuff to the changelogs, either to benefit people or make their life more chaotic. We may never know
+- But anyways im gonna be messing around with the changelogs from time-to-time, so look forward to  that
+- ok bye
+
 # Large Update! Read Below
 
 # Balancing Starting Soon!
