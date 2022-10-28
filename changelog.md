@@ -1,3 +1,8 @@
+# Its add more chaos carter
+
+- Added chat to testing server!
+- servers should be online soon!
+- read the stuff below!
 # Hola
 
 - Hey its Carter here
