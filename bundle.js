@@ -4694,7 +4694,7 @@
             [
               { id: "d", to: "Domination" },
               { id: "t", to: "DEV SERVER" },
-              { id: "k", to: "THING"   },
+              { id: "k", to: "Teaching"   },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
@@ -4707,19 +4707,19 @@
         servers: [
           {
             visible: 0,
-            id: "Heroku-Siege",
+            id: "Render-Siege",
             type: "beta",
-            code: "heroku-frankfurt-s",
-            at: p.heroku("arrasiege"),
+            code: "Render-frankfurt-s",
+            at: p.render("arrasiege"),
             prefer: !0,
             featured: 0 // For Featured Status.
           },
           {
             visible: 0,
-            id: "Heroku-4TDM",
+            id: "Render-4TDM",
             type: "beta",
-            code: "heroku-montreal-4",
-            at: p.heroku("tdm4"),
+            code: "Render-montreal-4",
+            at: p.render("tdm4"),
             prefer: !0,
             featured: 0 // For Featured Status.
           },
@@ -4743,9 +4743,9 @@
           }, 
                     {
             visible: 0,
-            id: "Glitch-TeachServer",
+            id: "Glitch-random-server",
             type: "beta",
-            code: "glitch-unknown-k",
+            code: "glitch-singapore-k",
             at: p.glitch("arrasoncrack32x"),
             prefer: !0,
             featured: 1 // For Featured Status.
