@@ -13,6 +13,7 @@
 - Deployment to Repl.it or Heroku! Still works with Glitch!
 - Webserver compatibility with 6 different languages!
 - In-game Chat!
+- Things
 
 The client is able to be hosted as either a Node.js Express, PHP, Go HTTP, Ruby Webrick, C or Python Flask webserver.
 Additonal code is available on my Github project's page, <https://github.com/seaguli/arras-mayhem>
