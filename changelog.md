@@ -1,3 +1,10 @@
+# Special announcement
+
+- hey its Carter im back
+- ive decided to try and add random stuff in the changelogs to make it more interesting
+- so i found out that there is only 1 other % on here, try to find it lol
+- ok goodbye for another week
+
 # Its add more chaos carter
 
 - Added chat to testing server!
