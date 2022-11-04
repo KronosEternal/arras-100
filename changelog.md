@@ -1,3 +1,9 @@
+# Working On Radar
+
+- new tank
+- getting a zombies server configured in (3 - 5 years)
+- trying to not suck at video editing
+
 # Special announcement
 
 - hey its Carter im back
