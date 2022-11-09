@@ -1,31 +1,14 @@
-# Working On Radar
+# Game is made by me
 
-- new tank
+- made by Ethan, Johnathon, Carter, Steven, Allen, and other contributers
+- Balancing in progress!
+- JS video taking too long, don't give up yet though!
+- new tank (Radar)
 - getting a zombies server configured in (3 - 5 years)
-- trying to not suck at video editing
 
-# Special announcement
 
-- hey its Carter im back
-- ive decided to try and add random stuff in the changelogs to make it more interesting
-- so i found out that there is only 1 other % on here, try to find it lol
-- ok goodbye for another week
-
-# Its add more chaos carter
-
-- Added chat to testing server!
-- servers should be online soon!
-- read the stuff below!
-# Hola
-
-- Hey its Carter here
-- Ethan wanted me to add stuff to the changelogs, either to benefit people or make their life more chaotic. We may never know
-- But anyways im gonna be messing around with the changelogs from time-to-time, so look forward to  that
-- ok bye
 
 # Large Update! Read Below
-
-# Balancing Starting Soon!
 
 # ANNOUNCMENTS:
 
@@ -54,8 +37,7 @@ assumes that I can code it in the first place :/
 
 # Hello New Players!
 
-- proof that Ethan made this game, with help from Johnathan, Steven, Carter, and members of the glitch community :)
-- So hello!
+- hello!
 - Join for: Dev stuff, random things, lag, almighty unfair tanks, lack of balancing, no real purpose, time killing, another way of dying, etc, etc
 
 # changed background
@@ -65,17 +47,13 @@ assumes that I can code it in the first place :/
 # Added DEV SERVERS
 
 - servers eclusivly for devs in order for testing purposes
-- You CAN join, but it will be laggy, crappy, and unstable because of the stuff we, Carter, Johnathon, Ethan, are doing
+- You CAN join, but it will be laggy, crappy, and unstable because of the stuff we (DEVS) are doing
 - Also Random Crap WILL happen, on said servers
 - This way we won't fudge up the actual servers
 
 # Secret
 
 - there is a secret in the changelogs see if you can find it - carter
-
-# Updates
-
-- carter has joined the dev team!
 
 # Updates
 
@@ -263,5 +241,5 @@ assumes that I can code it in the first place :/
 # Wow
 
 - wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - Carter - 2021
-- also how about touching some grass nerd - Ethan - 2021
-- "I will find your family, whats left of it at least" - Johnathan - 2022
+- also how about touching some grass" - Ethan - 2021
+- "I will find you" - Johnathan - 2022
