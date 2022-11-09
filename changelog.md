@@ -6,8 +6,6 @@
 - new tank (Radar)
 - getting a zombies server configured in (3 - 5 years)
 
-
-
 # Large Update! Read Below
 
 # ANNOUNCMENTS:
