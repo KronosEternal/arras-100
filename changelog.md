@@ -1,5 +1,11 @@
 # Game is made by me
 
+- ┏┓┏━┓  ┏━━━┓ ┏━━━┓
+- ┃┃┃┏┛  ┃┏━┓┃ ┃┏━┓┃
+- ┃┗┛┛︱ ┃┗━━┓ ┃┗━┛┃
+- ┃┏┓┃︱ ┗━━┓┃ ┃┏━━┛ 
+- ┃┃┃┗┓ ┃┗━┛┃ ┃┃ 
+- ┗┛┗━┛ ┗━━━┛ ┗┛
 - made by Ethan, Johnathon, Carter, Steven, Allen, and other contributers
 - Balancing in progress!
 - JS video taking too long, don't give up yet though!

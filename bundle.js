@@ -4656,6 +4656,7 @@
             os: "OpenShift",
             heroku: "Heroku",
             replit: "Repl.it",
+            vercel: "Vercel",
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
@@ -4663,7 +4664,7 @@
             buyvm: "BuyVM",
             extravm: "ExtraVM",
             hetzner: "Hetzner",
-            ovh: "OVH"
+            ovh: "OVH",
           },
           {
             unknown: ["Unknown", null],
@@ -4707,19 +4708,19 @@
         servers: [
           {
             visible: 0,
-            id: "Render-Siege",
+            id: "Vercel-Siege",
             type: "beta",
-            code: "Render-frankfurt-s",
-            at: p.render("arrasiege"),
+            code: "vercel-frankfurt-s",
+            at: p.vercel("arrasiege"),
             prefer: !0,
             featured: 0 // For Featured Status.
           },
           {
             visible: 0,
-            id: "Render-4TDM",
+            id: "Vercel-4TDM",
             type: "beta",
-            code: "Render-montreal-4",
-            at: p.render("tdm4"),
+            code: "vercel-montreal-4",
+            at: p.vercel("tdm4"),
             prefer: !0,
             featured: 0 // For Featured Status.
           },

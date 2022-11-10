@@ -2,6 +2,8 @@
 
 ![Arras.io logo](https://user-images.githubusercontent.com/99846877/164053744-57e8d283-b0f3-4c9a-897b-3f5f11c2298a.png)
 
+# ＠Ｎｙｘ_Ｔｈｅ_Ｃｅｌｅｓｔｉａｌ
+
 # Features
 
 - Server speeds so laggy that it looks like your playing on a power point!
