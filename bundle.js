@@ -4690,7 +4690,8 @@
               { id: "f", to: "FFA" },
               { id: "2", to: "2 Team", end: "2TDM" },
               { id: "3", to: "3 Team", end: "3TDM" },
-              { id: "4", to: "4 Team", end: "4TDM" }
+              { id: "4", to: "4 Team", end: "4TDM" },
+              { id:"69", to: "Double Diep", end: "double"}
             ],
             [
               { id: "d", to: "Domination" },
@@ -4724,6 +4725,15 @@
             prefer: !0,
             featured: 0 // For Featured Status.
           },
+                    {
+            visible: 0,
+            id: "Vercel-Double",
+            type: "beta",
+            code: "vercel-unknown-69",
+            at: p.vercel("dublinstasd"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
           {
             visible: 0,
             id: "Glitch-DEV",
@@ -4739,6 +4749,15 @@
             type: "beta",
             code: "glitch-singapore-t",
             at: p.glitch("4tdmsd"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          }, 
+                              {
+            visible: 0,
+            id: "Glitch-DEV3",
+            type: "beta",
+            code: "glitch-london-t",
+            at: p.glitch("double-diep"),
             prefer: !0,
             featured: 1 // For Featured Status.
           }, 
