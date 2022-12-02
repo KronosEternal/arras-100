@@ -1,3 +1,10 @@
+# big update time lets go
+
+- Yea it me, Carter, back at it again
+- Just wanted to let everybody know that the servers being down are intentional rn, as Ethan and the rest of the dev team (Johnathan and maybe me if I don't screw everything up) are working hard on the new update
+- But the new update is going to help the game a lot, but you can look at this link for more info on the update and notes that dev's have put in: https://docs.google.com/document/d/1u4UVvsX2IE81pkeafblnaodQJHL4i7ALyPe6zMg2jPM/edit
+- Anyways see ya guys in a month
+
 # Game is made by me
 
 - ┏┓┏━┓  ┏━━━┓ ┏━━━┓
