@@ -4695,9 +4695,9 @@
             ],
             [
               { id: "d", to: "Domination" },
-              { id: "7000", to: "Siege (DEV)" },
-              { id: "8000", to: "4TDM (DEV)" },
-              { id: "9000", to: "Apocolypse (DEV)" },
+              { id: "7", to: "Siege (DEV)" },
+              { id: "8", to: "4TDM (DEV)" },
+              { id: "9", to: "Apocolypse (DEV)" },
               { id: "k", to: "Teaching"   },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
@@ -4713,7 +4713,7 @@
             visible: 0,
             id: "Glitch-DEV",
             type: "beta",
-            code: "glitch-la-7000",
+            code: "glitch-la-7",
             at: p.glitch("arrasiosiege"),
             prefer: !0,
             featured: 1 // For Featured Status.
@@ -4722,7 +4722,7 @@
             visible: 0,
             id: "Glitch-DEV2",
             type: "beta",
-            code: "glitch-singapore-8000",
+            code: "glitch-singapore-8",
             at: p.glitch("4tdmsd"),
             prefer: !0,
             featured: 1 // For Featured Status.
@@ -4731,7 +4731,7 @@
             visible: 0,
             id: "Glitch-DEV3",
             type: "beta",
-            code: "glitch-london-9000",
+            code: "glitch-london-9",
             at: p.glitch("double-diep"),
             prefer: !0,
             featured: 1 // For Featured Status.
