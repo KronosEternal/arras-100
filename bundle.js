@@ -4709,33 +4709,6 @@
         servers: [
           {
             visible: 0,
-            id: "Vercel-Siege",
-            type: "beta",
-            code: "vercel-frankfurt-s",
-            at: p.vercel("arrasiege"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Vercel-4TDM",
-            type: "beta",
-            code: "vercel-montreal-4",
-            at: p.vercel("tdm4"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-                    {
-            visible: 0,
-            id: "Vercel-Double",
-            type: "beta",
-            code: "vercel-unknown-69",
-            at: p.vercel("dublinstasd"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "Glitch-DEV",
             type: "beta",
             code: "glitch-la-t",
