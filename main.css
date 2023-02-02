@@ -89,7 +89,7 @@ h3 {
     border-bottom: 2px solid #70b5ff;
   box-shadow: inset 0 -2px #70b5ff;
   border: 0;
-  opacity: 0.3
+  opacity: 0.4
 }
 #startMenuSlidingTrigger:hover > h3 {
   color: #323232;
