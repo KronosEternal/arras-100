@@ -1,3 +1,9 @@
+# 2023!
+
+- welcome to the (slightly revamped version) of Arras-100
+- Happy New Year
+- 2023!
+
 # big update time lets go
 
 - Yea it me, Carter, back at it again
