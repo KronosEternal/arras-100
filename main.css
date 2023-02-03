@@ -197,7 +197,7 @@ input.error {
   background-color: #000000;
   box-sizing: border-box;
   overflow: hidden;
-  opacity: 1; NEGRO
+  opacity: 0.8965;
 }
 .menuTabs {
   height: 26px;
@@ -304,7 +304,7 @@ a.menuTab:link:hover, a.menuTab:visited:hover {
 .changelogSelectorContainer::after {
   top: 10px;
   right: 10px;
-  color: white;
+  color: aquamarine;
 }
 .changelogSelector {
   width: 340px;
@@ -316,10 +316,10 @@ a.menuTab:link:hover, a.menuTab:visited:hover {
 }
 .changelogSelector span:hover {
   transition: color 200ms;
-  color: white;
+  color: aquamarine;
 }
 .changelogSelector span.active {
-  color: white;
+  color: aquamarine;
   cursor: default;
 }
 
