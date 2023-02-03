@@ -127,18 +127,18 @@ h3 {
   color: #25c29b;
   cursor: default;
 }
-
 .shadowScroll {
   overflow-y: scroll;
+  color: white;
   background:
     /* Shadow covers */
-    linear-gradient(#7c8387 30%, rgba(255, 255, 255, 0)),
-    linear-gradient(rgba(255, 255, 255, 0), #7c8387 70%) 0 100%,
+    linear-gradient(#000000 30%, rgba(37, 79, 71, 0)),
+    linear-gradient(rgba(37, 79, 71, 0), #000000 70%) 0 100%,
     /* Shadows */
     radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
     radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
   background-repeat: no-repeat;
-  background-color: #7c8387;
+  background-color: #000000;
   background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
   background-attachment: local, local, scroll, scroll;
 }
@@ -194,9 +194,10 @@ input.error {
   max-height: 415px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #7c8387;
+  background-color: #000000;
   box-sizing: border-box;
   overflow: hidden;
+  opacity: 1; NEGRO
 }
 .menuTabs {
   height: 26px;
@@ -280,6 +281,7 @@ a.menuTab:link:hover, a.menuTab:visited:hover {
 
 .changelogSelectorContainer {
   height: 25px;
+  color: white;
   font: bold 20px Ubuntu;
   text-align: center;
   padding: 0 15px 5px 0;
@@ -293,41 +295,42 @@ a.menuTab:link:hover, a.menuTab:visited:hover {
   display: block;
   height: 15px;
   width: 8px;
+  color: white;
   pointer-events: none;
 }
 .changelogSelectorContainer::before {
-  background: linear-gradient(to right, rgba(221, 230, 235, 1) 0%, rgba(221, 230, 235, 0.3) 100%);
+  color: white;
 }
 .changelogSelectorContainer::after {
   top: 10px;
   right: 10px;
-  background: linear-gradient(to left, rgba(221, 230, 235, 1) 0%, rgba(221, 230, 235, 0.3) 100%);
+  color: white;
 }
 .changelogSelector {
   width: 340px;
 }
 .changelogSelector span {
   transition: color 500ms;
-  color: #222;
+  color: white;
   cursor: pointer;
 }
 .changelogSelector span:hover {
   transition: color 200ms;
-  color: #555;
+  color: white;
 }
 .changelogSelector span.active {
-  color: #777;
+  color: white;
   cursor: default;
 }
 
 .changelogSelector span:not(:first-child)::before {
   content: ' ';
-  color: #aaa;
+  color: white;
   margin: 0 3px 0 0;
 }
 .changelogSelector span:not(:last-child)::after {
   content: ' |';
-  color: #aaa;
+  color: white;
   margin: 0 0 0 3px;
 }
 
@@ -614,9 +617,10 @@ body.mobile .icon {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   cursor: pointer;
-  background: #B58EFD;
+  background: linear-gradient(to top, #139c72, #139c9c);
   border-radius: 5px;
   box-shadow: inset 0 -4px rgba(0, 0, 0, 0.15);
+  opacity: 0.85;
 }
 #bottomHolder > a:hover {
   top: 1px;

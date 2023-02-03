@@ -1,3 +1,10 @@
+# Burnout
+
+- This is J0|-||/|@T|-|@|/|
+- My "creative flow" is being thanos snapped
+- I'm probably going to take a break for a week or two
+- "Apocolypse" is actually Double Diep btw
+
 # 2023!
 
 - welcome to the (slightly revamped version) of Arras-100
@@ -19,7 +26,7 @@
 - ┃┏┓┃︱ ┗━━┓┃ ┃┏━━┛ 
 - ┃┃┃┗┓ ┃┗━┛┃ ┃┃ 
 - ┗┛┗━┛ ┗━━━┛ ┗┛
-- made by Ethan, Johnathon, Carter, Steven, Allen, and other contributers
+- made by Ethan, Johnathan, Carter, Steven, Allen, and other contributers
 - Balancing in progress!
 - JS video taking too long, don't give up yet though!
 - new tank (Radar)
