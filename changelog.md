@@ -1,3 +1,18 @@
+# Guess, whos back, back again
+
+- Hey guys, It's me Carter
+- Ive been neglecting adding stuff to  this for a while, but I'm finally back
+- Also i know I said I'd be back in a month, but its actually been about three months since ive posted updates here
+- Anyways Ill probably add a bunch more random stuff in here, so stay tuned
+- Also I'm gonna probably mess around and make a funny tank, so Ill update you guys on that as well
+
+# Like a phoenix I rise
+
+- This is J0|-||/|@T|-|@|/|
+- I'm done with my burn out now lol
+- Double Diep work shall continue
+- Ethan still hasn't made a zombies server :(
+
 # Burnout
 
 - This is J0|-||/|@T|-|@|/|
@@ -267,3 +282,4 @@ assumes that I can code it in the first place :/
 - wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - Carter - 2021
 - also how about touching some grass" - Ethan - 2021
 - "I will find you" - Johnathan - 2022
+- "I only simp for sunflowers" - Everett - 2022
