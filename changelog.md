@@ -1,3 +1,20 @@
+# Coding is weird
+
+- Change logs hasn't been working for a while, and change log updates may be outdated when they release
+
+# Apocolypse
+
+- New bosses are being worked on!
+- Balenceing player classes!
+- Making Amalgamation Zombie less op! (Seriously, what was I thinking?!)
+- Might add more human classes soon, or it might take awhile
+
+# Spring Break
+
+- Carter here, back with another changelog
+- Spring break is almost apon us, so that means that the dev team is (probably) gonna go into an inactive state. There will be updates to the game later, but for now lets let the team rest
+- Anyways, I've been brainstorming what I should make into a tank and I think I have an idea.... (More updates will come about the tank later)
+
 # Guess, whos back, back again
 
 - Hey guys, It's me Carter
@@ -279,7 +296,7 @@ assumes that I can code it in the first place :/
 
 # Wow
 
-- wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :) - Carter - 2021
-- also how about touching some grass" - Ethan - 2021
+- "Wow you must be really bored to scroll all the way down the changelogs. hope you had fun looking at the mess we call this server, and have a good day :)" - Carter - 2021
+- "...Also how about touching some grass" - Ethan - 2021
 - "I will find you" - Johnathan - 2022
 - "I only simp for sunflowers" - Everett - 2022
