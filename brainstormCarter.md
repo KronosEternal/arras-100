@@ -22,7 +22,7 @@ OR
 - maybe could be double deip Anni + Anni???
 - Apparenty Johnathan already made it in double diep
 
-## Teacher
+## Teacher (Could be called spawner)
 
 - Spawns "students" (AKA: some random tank that might be balaned) 
 - Could be a better version of factory, but with more or better tanks spawned

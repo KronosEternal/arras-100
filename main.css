@@ -419,6 +419,7 @@ body.mobile .controlTable {
   -moz-user-select: auto;
   -ms-user-select: auto;
   user-select: auto;
+  
 }
 .controlTable td.editing span {
   visibility: hidden;

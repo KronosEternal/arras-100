@@ -1,3 +1,17 @@
+# Sooooo... where have we been?
+
+- Hey! Carter here, 
+
+# TE᙭T ᖴOᖇᗰᗩTTIᑎG Iᔕ ᑕOᗰᑭᒪETEᒪY ᗷᖇOKEᑎ 
+
+- ᗩᑎᗪ I ᗪOᑎ'T KᑎOᗯ ᗯᕼY
+
+# 𝕋ℍ𝔼 𝔼ℕ𝔻 𝕆𝔽 𝕌ℕ𝔻𝔼ℝ𝕊𝕋𝔸ℕ𝔻𝕀ℕ𝔾
+
+- 𝕋𝕙𝕚𝕤 𝕡𝕒𝕣𝕥𝕪 𝕟𝕖𝕧𝕖𝕣 𝕤𝕥𝕠𝕡𝕤! 𝕋𝕚𝕞𝕖 𝕚𝕤 𝕕𝕖𝕒𝕕 𝕒𝕟𝕕 𝕞𝕖𝕒𝕟𝕚𝕟𝕘 𝕙𝕒𝕤 𝕟𝕠 𝕞𝕖𝕒𝕟𝕚𝕟𝕘! 𝔼𝕩𝕚𝕤𝕥𝕖𝕟𝕔𝕖 𝕚𝕤 𝕦𝕡𝕤𝕚𝕕𝕖-𝕕𝕠𝕨𝕟 𝕒𝕟𝕕 𝕀 𝕣𝕖𝕚𝕘𝕟 𝕤𝕦𝕡𝕣𝕖𝕞𝕖! 𝕎𝕖𝕝𝕔𝕠𝕞𝕖, 𝕠𝕟𝕖 𝕒𝕟𝕕 𝕒𝕝𝕝, 𝕋𝕆 𝔸ℝℝ𝔸𝕊𝕄𝔸𝔾𝔼𝔻𝔻𝕆ℕ!
+- https://www.youtube.com/watch?v=zhEGO7DkKr0
+- 2023-2024 is probably where we all go insane
+
 # Coding is weird
 
 - Change logs hasn't been working for a while, and change log updates may be outdated when they release
@@ -8,6 +22,7 @@
 - Balenceing player classes!
 - Making Amalgamation Zombie less op! (Seriously, what was I thinking?!)
 - Might add more human classes soon, or it might take awhile
+- https://docs.google.com/document/d/1KHD-Iod-0a58t0lQV1M3_mpEoL0Hz401vRSW1trPnOo/edit?usp=sharing
 
 # Spring Break
 
