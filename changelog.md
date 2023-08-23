@@ -1,3 +1,8 @@
+# Added new Render Beta Server
+
+- using render, we have a new beta port of the arras servers
+- new highlight color
+
 # Changelogs Work Again
 
 - we can do bullcrap again!

@@ -123,6 +123,10 @@ h3 {
   color: #1cbfff;
   text-shadow: /*#ffe500 0 0 4px,*/ #1be0d0 0 0 7px;
 }
+.serverSelector tr.highlighted {
+  color: #ff821c;
+  text-shadow: /*#ffe500 0 0 4px,*/ #e01b1b 0 0 7px;
+}
 .serverSelector tr.selected {
   color: #25c29b;
   cursor: default;

@@ -1427,6 +1427,7 @@
           b.codeTable[1][c][0];
         u.appendChild(document.createElement("td")).textContent = $a(h);
         a.featured && u.classList.add("featured");
+        a.highlight && u.classList.add("highlighted");
         u.onclick = () => {
           ea.classList.remove("selected");
           ea = u;
@@ -4717,7 +4718,8 @@
             code: "glitch-la-7",
             at: p.glitch("arrasiosiege"),
             prefer: !0,
-            featured: 1 // For Featured Status.
+            featured: 1, // For Featured Status.
+            highlight: 0
           },
                     {
             visible: 0,
@@ -4726,7 +4728,8 @@
             code: "glitch-singapore-8",
             at: p.glitch("4tdmsd"),
             prefer: !0,
-            featured: 1 // For Featured Status.
+            featured: 1, // For Featured Status.
+            highlight: 0        
           }, 
                               {
             visible: 0,
@@ -4735,7 +4738,8 @@
             code: "glitch-london-9",
             at: p.glitch("double-diep"),
             prefer: !0,
-            featured: 1 // For Featured Status.
+            featured: 1, // For Featured Status.
+            highlight: 0                    
           }, 
                     {
             visible: 0,
@@ -4744,7 +4748,8 @@
             code: "glitch-singapore-k",
             at: p.glitch("arrasoncrack32x"),
             prefer: !0,
-            featured: 1 // For Featured Status.
+            featured: 1, // For Featured Status.
+            highlight: 0          
           },      
           {
             visible: 0,
@@ -4753,7 +4758,8 @@
             code: "render-local-0",
             at: p.render("betad"),
             prefer: !0,
-            featured: 1 // For Featured Status.
+            featured: 0, // For Featured Status.
+            highlight: 1
           },
             ]
           .map((a, e) => ({ data: a, i: e }))
