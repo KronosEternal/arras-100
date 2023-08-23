@@ -130,6 +130,7 @@ h3 {
 .serverSelector tr.selected {
   color: #25c29b;
   cursor: default;
+  text-shadow: /*#ffe500 0 0 4px, */ #1be0d0 0 0 7px;
 }
 .shadowScroll {
   overflow-y: scroll;
