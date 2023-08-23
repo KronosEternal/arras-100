@@ -4699,6 +4699,7 @@
               { id: "8", to: "4TDM (DEV)" },
               { id: "9", to: "Double DIep (DEV)" },
               { id: "k", to: "Screwed Up Server"   },
+              { id: "0", to: "beta render test"},
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "a", to: "Event" },
@@ -4742,6 +4743,15 @@
             type: "beta",
             code: "glitch-singapore-k",
             at: p.glitch("arrasoncrack32x"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          },      
+          {
+            visible: 0,
+            id: "Render-Beta-Test",
+            type: "beta",
+            code: "render-local-0",
+            at: p.render("betad"),
             prefer: !0,
             featured: 1 // For Featured Status.
           },
