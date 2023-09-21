@@ -1,3 +1,24 @@
+# Hello There
+
+- this is a demonstration
+
+# I'm bored
+
+- This is J0|-||/|@T|-|@|/| 
+- I'm still doing stuff, don't know if Ethan is
+- An Arras-100 Discord has been made, invites aren't being given yet
+
+# You know what time it is 😎
+
+- It's Carter, here to entertain you guys while the dev team tries to figure out what the hell we're gonna do with the game
+- Anyways mostly everybody who comes onto here has gotten an email about the arras feature requests, so if you want something in the game
+go use it pls I'm out of ideas and I think the rest of the dev team is too
+- Anyways ima try and update you all if there's something we're thinking of adding, but I just wanna say before I go thanks for sticking around
+for however long you have, this was just a silly little project Ethan made in middle school, and it's crazy to see how far it's come, but a lot of
+that is thanks to you guys, so just know that the dev team appreciates you
+- anyways enough of the praise dump, go back to playing the game lol
+
+
 # Added new Render Beta Server
 
 - using render, we have a new beta port of the arras servers
@@ -6,10 +27,6 @@
 # Changelogs Work Again
 
 - we can do bullcrap again!
-
-# Sooooo... where have we been?
-
-- Hey! Carter here, 
 
 # TE᙭T ᖴOᖇᗰᗩTTIᑎG Iᔕ ᑕOᗰᑭᒪETEᒪY ᗷᖇOKEᑎ 
 
