@@ -1,3 +1,10 @@
+# I'm back after an extended break
+
+- may or may not do crap now
+- fixing color issues with text on the more options screen
+- fixing servers
+- unbreaking broken stuff
+
 # Hello There
 
 - this is a demonstration
