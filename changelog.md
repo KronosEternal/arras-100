@@ -6,7 +6,8 @@
 - unbreaking broken stuff
 - Changed Background from "2023" to "Windows 11" beacuse I wanted to
 - changed a single hidden character to MS Comic Sans also because I wanted to
-
+- changed text font in "view options" tab
+ 
 # Hello There
 
 - this is a demonstration
