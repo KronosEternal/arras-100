@@ -461,9 +461,12 @@ body.mobile #optMobile, body.mobile #optBorders {
 
 .slided .slider {
   top: -275px;
+  color: white;
+  
 }
 body.mobile .slided .slider {
   top: -225px;
+  color: white;
 }
 
 .startMenuSlidingContent {
