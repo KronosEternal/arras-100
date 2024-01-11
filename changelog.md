@@ -4,6 +4,8 @@
 - Finally fixed inconsistent text colors on the "view options" tab
 - fixing servers
 - unbreaking broken stuff
+- Changed Background from "2023" to "Windows 11" beacuse I wanted to
+- changed a single hidden character to MS Comic Sans also because I wanted to
 
 # Hello There
 

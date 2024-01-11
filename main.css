@@ -25,7 +25,7 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-  background-image: url("https://cdn.glitch.global/98153732-992a-4d57-b71f-86128add9d7f/4k.jpg?v=1675368365215"); /*https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/bg.png*/  /*https://wall.flightsim.to/assets/images/og-image-new.jpg*/ /* https://flyawaysimulation.com/media/images14/images/787-pushback-msfs2020.jpg */
+  background-image: url("https://cdn.glitch.global/98153732-992a-4d57-b71f-86128add9d7f/funny.png?v=1704989447051"); /*https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/bg.png*/  /*https://wall.flightsim.to/assets/images/og-image-new.jpg*/ /* https://flyawaysimulation.com/media/images14/images/787-pushback-msfs2020.jpg */
   background-color: #484848;
   background-position: center;
 }
@@ -462,11 +462,12 @@ body.mobile #optMobile, body.mobile #optBorders {
 .slided .slider {
   top: -275px;
   color: white;
-  
+  font-family: Ubuntu;
 }
 body.mobile .slided .slider {
   top: -225px;
   color: white;
+  font-family: Ubuntu;
 }
 
 .startMenuSlidingContent {
